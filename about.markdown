@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+My name is Chad Chen.
+I am a software developer. I'm here to record and reveal what I think is worth sharing.
+You can contact me at chadchen@gmx.com.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+## External Links
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+- [Twitter](https://twitter.com/nehcdahc)
+- [GitHub](https://github.com/nehcdahc)
+- [博客园](https://www.cnblogs.com/nehcdahc)
