@@ -8,6 +8,7 @@ permalink: /links/
 
 - [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
 - [Lyric](https://lyric.im/)
+- [张鑫旭的个人主页 » 张鑫旭-鑫空间-鑫生活](https://www.zhangxinxu.com/)
 
 ## 兼职平台
 
