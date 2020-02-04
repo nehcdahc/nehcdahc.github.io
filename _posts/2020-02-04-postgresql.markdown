@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "PostgreSQL 常用脚本"
+title:  "常用 PostgreSQL 脚本"
 date:   2020-02-04 13:59:00 +0800
 ---
 
@@ -11,7 +11,7 @@ date:   2020-02-04 13:59:00 +0800
 ```sql
 
 -- 创建数据库
--- https://www.postgresql.org/docs/current/static/multibyte.html 
+-- https://www.postgresql.org/docs/current/static/multibyte.html
 -- database_name，数据库名称
 -- database_user，用户名
 CREATE DATABASE database_name WITH OWNER = database_user;
