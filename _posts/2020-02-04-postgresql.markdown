@@ -9,7 +9,6 @@ date:   2020-02-04 13:59:00 +0800
 ### 数据库
 
 ```sql
-
 -- 创建数据库
 -- https://www.postgresql.org/docs/current/static/multibyte.html
 -- database_name，数据库名称
@@ -28,24 +27,20 @@ CREATE DATABASE database_name WITH OWNER = database_user ENCODING 'UTF8' LC_COLL
 -- database_user，用户名
 -- original_database_name，原始数据库名称
 CREATE DATABASE database_name WITH TEMPLATE original_database_name OWNER database_user;
-
 ```
 
 ### 表
 
 ```sql
-
 -- 新增列
 -- table_name，表名
 -- column_name，列名
 ALTER TABLE table_name ADD COLUMN IF NOT EXISTS column_name VARCHAR(100) NULL;
-
 ```
 
 ### 扩展
 
 ```sql
-
 -- 创建 UUID 扩展
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
@@ -57,13 +52,11 @@ CREATE EXTENSION IF NOT EXISTS cube;
 
 -- 创建 earthdistance 扩展
 CREATE EXTENSION IF NOT EXISTS earthdistance;
-
 ```
 
 ### 函数
 
 ```sql
-
 -- 隐式将整形转换成字符串，但是会有一些问题，参考 https://stackoverflow.com/questions/50025750/postgres-convert-integer-into-text。通常情况下还是建议使用 CAST 函数来实现。
 -- 使用场景：在数据库迁移的时候（比如 Microsoft SQL Server 转成 PostgreSQL，Microsoft SQL Server 默认是支持的）需要隐式转换，以达到快速实现的目的
 CREATE FUNCTION pg_catalog.text(integer) RETURNS text STRICT IMMUTABLE LANGUAGE SQL AS 'SELECT textin(int4out($1));';
@@ -72,13 +65,11 @@ COMMENT ON FUNCTION pg_catalog.text(integer) IS 'convert integer to text';
 CREATE FUNCTION pg_catalog.text(bigint) RETURNS text STRICT IMMUTABLE LANGUAGE SQL AS 'SELECT textin(int8out($1));';
 CREATE CAST (bigint AS text) WITH FUNCTION pg_catalog.text(bigint) AS IMPLICIT;
 COMMENT ON FUNCTION pg_catalog.text(bigint) IS 'convert bigint to text';
-
 ```
 
 ### 索引
 
 ```sql
-
 -- Query the indexes of a table
 SELECT * FROM pg_indexes WHERE tablename IN ('table_name');
 
@@ -144,13 +135,11 @@ JOIN pg_user AS U ON
     i.relowner = U.usesysid
 WHERE
     NOT nspname LIKE 'pg%';
-
 ```
 
 ## 权限控制
 
 ```sql
-
 -- CREATE USER OR ROLE，PostgreSQL 中创建用户和角色是等效的
 -- role_name，用户角色名称
 -- user_password，用户密码
@@ -179,13 +168,11 @@ GRANT EXECUTE ON FUNCTION function_name(parameter1_type, parameter2_type, ...) T
 -- parameter2_type，第二个函数参数类型
 -- database_user，数据库用户
 ALTER FUNCTION function_name(parameter1_type, parameter2_type, ...) OWNER TO database_user;
-
 ```
 
 ## 运行分析
 
 ```sql
-
 -- 查询当前数据库 TOP 20 大表
 SELECT table_name
     ,pg_size_pretty(pg_relation_size(table_schema || '.' || table_name)) AS size
@@ -204,13 +191,11 @@ SELECT current_timestamp - query_start AS runtime
 FROM pg_stat_activity
 WHERE query_start IS NOT NULL
 ORDER BY 1 DESC limit 20;
-
 ```
 
 ## 运行维护
 
 ```sql
-
 -- Cancel Processes by pid
 SELECT pg_cancel_backend(pid int);
 
@@ -228,36 +213,30 @@ AND pid <> pg_backend_pid();
 -- table_name，数据库表名
 VACUUM table_name;
 VACUUM FULL table_name;
-
 ```
 
 ### 配置
 
 ```sql
-
 -- 修改 max_locks_per_transaction
 ALTER SYSTEM SET max_locks_per_transaction = 300;
 
 -- 重载配置信息，使配置生效
 -- pg_hba.conf
 SELECT pg_reload_conf();
-
 ```
 
 ### 备份还原
 
 ```bash
-
 pg_dump -h host_name -U database_user -F c -b -v -f file_path database_name
 
 pg_restore -h host_name -U database_user --no-owner -d database_name file_path
-
 ```
 
 ## 其他
 
 ```sql
-
 -- Prepare a statement for execution
 PREPARE foo(TEXT, TEXT, TEXT) AS
 SELECT *
@@ -267,25 +246,21 @@ WHERE foo = $1
     OR baz = $3
 EXECUTE foo('foo', 'bar', 'baz');
 DEALLOCATE foo;
-
 ```
 
 ### 时间处理
 
 ```sql
-
 -- 查询时间差
 SELECT EXTRACT(epoch FROM (begin_time - end_time));
 
 -- Query the last month in format 'YYYYMM'
 SELECT to_char(date_trunc('month', current_date - interval '1' month), 'YYYYMM');
-
 ```
 
 ### psql
 
 ```bash
-
 # 打开数据库连接
 psql -h host_name -U database_user
 
@@ -294,5 +269,4 @@ psql -h host_name -U database_user
 
 # 连接数据
 \c database_name
-
 ```
