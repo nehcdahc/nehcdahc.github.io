@@ -4,13 +4,13 @@ title: Links
 permalink: /links/
 ---
 
-## Blogs
+## Blogroll
 
 - [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
 - [Lyric](https://lyric.im/)
 - [张鑫旭的个人主页 » 张鑫旭-鑫空间-鑫生活](https://www.zhangxinxu.com/)
 
-## 兼职平台
+## Freelance Work
 
 - [实现网](https://shixian.com/) - 按需雇佣 BAT 工程师、设计师
 - [码市](https://codemart.com/) - 互联网软件外包服务平台
