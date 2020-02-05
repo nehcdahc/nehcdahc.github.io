@@ -2,6 +2,7 @@
 layout: post
 title:  "常用 PostgreSQL 脚本"
 date:   2020-02-04 13:59:00 +0800
+tags: [PostgreSQL, SQL, Database]
 ---
 
 ## 数据定义
