@@ -1,0 +1,134 @@
+---
+layout: post
+title: "我的文章分类"
+date: 2020-02-12 14:32:00 +0800
+---
+
+- 软件工程
+  - Scrum
+  - CICD
+  - 代码规范
+- 操作系统
+  - Windows
+    - Windows PowerShell
+    - cmd
+  - Linux
+    - ArchLinux
+    - Ubuntu
+    - CentOS
+  - macOS
+- 虚拟化平台
+  - Azure
+    - Azure CLI
+  - Docker
+  - VirtualBox
+- 产品平台
+  - WeChat
+  - Microsoft Dynamics CRM
+- 编程框架
+  - 静态网站
+    - Hexo
+    - Hugo
+    - Jekyll
+  - JavaScript
+    - React
+    - Angular.js
+    - Vue.js
+    - Node.js
+      - 插件
+        - ORM
+  - .NET
+    - ASP.NET
+      - ASP.NET MVC
+    - Winform
+    - .NET Core
+    - .NET Framework
+- 编程语言
+  - Java
+  - C#
+  - C++
+  - C
+  - Python
+  - JavaScript
+    - JQuery
+  - HTML
+  - CSS
+  - Delphi
+  - PHP
+  - Ruby
+  - Go
+  - XML
+  - Rust
+  - Reason
+- 数据库
+  - SQL Server
+  - MySQL
+  - Oracle
+  - PostgreSQL
+  - NoSQL
+- 解决方案
+  - NPOI
+  - Quartz
+  - ELK
+  - Kafka
+  - Expression
+    - Cron Expression
+    - Regular Expression
+- 工具
+  - 设计工具
+    - SolidWorks
+    - Adobe CS
+  - 开发工具
+    - Microsoft Visual Studio
+      - ReSharper 8
+      - GhostDoc
+    - Visual Studio Code
+    - Android Studio
+  - 测试/调试工具
+    - Fiddler
+    - Postman
+    - 网络工具
+      - ping
+      - nslookup
+  - 源代码管理
+    - SVN
+    - Git
+      - Gitlab
+  - Web 服务器
+    - IIS
+    - NGINX
+  - 包管理
+    - NuGet
+    - npm
+      - verdaccio
+      - sinopia
+    - Yarn
+  - 办公软件
+    - 邮件
+      - Foxmail
+    - Microsoft Office
+    - OneNote
+    - 数据恢复精灵
+- 应用场景
+  - 企业级别应用
+    - ERP
+    - MES
+    - SCM
+    - CRM
+    - BPM
+  - 游戏
+  - 嵌入式系统/工业控制系统
+  - 基础软件
+    - 操作系统
+    - 开发工具
+    - 数据库
+    - 系统软件
+  - 客户端
+    - 桌面客户端
+    - 移动客户端
+      - iOS
+      - Android
+      - 微信小程序
+  - 互联网应用
+- 程序人生
+  - 兼职平台
