@@ -2,6 +2,7 @@
 layout: post
 title: "我的文章分类"
 date: 2020-02-12 14:32:00 +0800
+categories: ["软件工程"]
 ---
 
 - 软件工程
