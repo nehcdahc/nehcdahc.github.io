@@ -60,6 +60,7 @@ date: 2020-02-12 14:32:00 +0800
   - XML
   - Rust
   - Reason
+  - SQL
 - 数据库
   - SQL Server
   - MySQL
