@@ -3,6 +3,7 @@ layout: post
 title:  "常用 SQL Server 脚本"
 date:   2020-02-04 14:48:00 +0800
 tags: [PostgreSQL, SQL, Database]
+categories: ["数据库", "编程语言"]
 ---
 
 ## 运行维护
