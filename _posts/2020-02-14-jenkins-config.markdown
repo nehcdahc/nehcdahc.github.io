@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "常用 Jenkins 插件"
+title: "常用 Jenkins 配置"
 date: 2020-02-14 16:59:00 +0800
 categories: ["软件工程"]
 tags: [Jenkins, CICD]
