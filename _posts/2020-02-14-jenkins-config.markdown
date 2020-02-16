@@ -9,7 +9,7 @@ tags: [Jenkins, CICD]
 ## General
 
 - Use custom workspace
-  - Directory: d:\xxx\xxx
+  - Directory: {directory, d:\github\\}
 
 ## Source Code Management
 
@@ -17,13 +17,13 @@ tags: [Jenkins, CICD]
 
 - Git
   - Repositories
-    - Repository URL: <https://xxxx/xxxx.git>
-    - Credentials: ...
+    - Repository URL: {repository_url, <https://github.com/nehcdahc/nehcdahc.github.io.git>}
+    - Credentials: {credentials}
   - Branches to build
-    - Branch Specifier (blank for 'any'): 10.29
+    - Branch Specifier (blank for 'any'): {branch_specifier, 10.29}
   - Additional Behaviours
     - Check out to specific local branch
-      - Branch name: 10.29
+      - Branch name: {branch_name, 10.29}
 
 ## Build Environment
 
@@ -31,10 +31,12 @@ tags: [Jenkins, CICD]
 
 - Create a formatted version number
   - Environment Variable Name: BUILD_VERSION
-  - Version Number Format String: 10.29.${BUILD_DATE_FORMATTED, "yyyyMMdd"}.${BUILDS_TODAY}
+  - Version Number Format String: {branch_name, 10.29}.${BUILD_DATE_FORMATTED, "yyyyMMdd"}.${BUILDS_TODAY}
   - Inject environment variables to the build process: Checked
 
-> <https://www.cnblogs.com/wdliu/p/8312735.html>
+#### 参考
+
+- <https://www.cnblogs.com/wdliu/p/8312735.html>
 
 ### NodeJS Plugin
 
@@ -52,7 +54,7 @@ tags: [Jenkins, CICD]
 
   ```powershell
   $env:Path+=";C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin"
-  .\build.ps1
+  {build_script, .\build.ps1}
   ```
 
 ## Post-build Actions
@@ -61,6 +63,6 @@ tags: [Jenkins, CICD]
 
 - Post-build Actions
   - [ArtifactDeployer] - Deploy the artifacts from build workspace to remote locations
-    - Artifacts to deploy: \*\*
-    - Basedir: dist/ -
-    - Remote File Location: f:/artifacts/\${BUILD_VERSION}
+    - Artifacts to deploy: {artifacts_to_deploy, \*\*}
+    - Basedir: {dist_directory, dist/}
+    - Remote File Location: {remote_file_location, f:/artifacts/\${BUILD_VERSION}}

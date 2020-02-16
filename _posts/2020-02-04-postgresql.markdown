@@ -15,20 +15,22 @@ categories: ["数据库", "编程语言"]
 -- https://www.postgresql.org/docs/current/static/multibyte.html
 -- database_name，数据库名称
 -- database_user，用户名
-CREATE DATABASE database_name WITH OWNER = database_user;
-CREATE DATABASE database_name OWNER database_user;
+CREATE DATABASE {database_name} WITH OWNER = {database_user};
+CREATE DATABASE {database_name} OWNER {database_user};
 
 -- LC_COLLATE：string sort order
 -- LC_CTYPE：character classification
-CREATE DATABASE database_name WITH OWNER = database_user ENCODING 'UTF8' LC_COLLATE = 'zh_CN.UTF-8' LC_CTYPE = 'zh_CN.UTF-8';
+-- database_name，数据库名称
+-- database_user，用户名
+CREATE DATABASE {database_name} WITH OWNER = {database_user} ENCODING 'UTF8' LC_COLLATE = 'zh_CN.UTF-8' LC_CTYPE = 'zh_CN.UTF-8';
 -- OR WINDOWS
-CREATE DATABASE database_name WITH OWNER = database_user ENCODING 'UTF8' LC_COLLATE = 'Chinese (Simplified)_China.936' LC_CTYPE = 'Chinese (Simplified)_China.936';
+CREATE DATABASE {database_name} WITH OWNER = database_user ENCODING 'UTF8' LC_COLLATE = 'Chinese (Simplified)_China.936' LC_CTYPE = 'Chinese (Simplified)_China.936';
 
 -- 复制数据库
 -- database_name，数据库名称
 -- database_user，用户名
 -- original_database_name，原始数据库名称
-CREATE DATABASE database_name WITH TEMPLATE original_database_name OWNER database_user;
+CREATE DATABASE {database_name} WITH TEMPLATE {original_database_name} OWNER {database_user};
 ```
 
 ### 表
@@ -37,7 +39,8 @@ CREATE DATABASE database_name WITH TEMPLATE original_database_name OWNER databas
 -- 新增列
 -- table_name，表名
 -- column_name，列名
-ALTER TABLE table_name ADD COLUMN IF NOT EXISTS column_name VARCHAR(100) NULL;
+-- column_type，列类型
+ALTER TABLE {table_name} ADD COLUMN IF NOT EXISTS {column_name} {column_type} [NULL | NOT NULL];
 ```
 
 ### 扩展
@@ -73,7 +76,8 @@ COMMENT ON FUNCTION pg_catalog.text(bigint) IS 'convert bigint to text';
 
 ```sql
 -- Query the indexes of a table
-SELECT * FROM pg_indexes WHERE tablename IN ('table_name');
+-- table_name，表名
+SELECT * FROM pg_indexes WHERE tablename IN ('{table_name}');
 
 -- 查询所有索引
 SELECT
@@ -146,30 +150,32 @@ WHERE
 -- role_name，用户角色名称
 -- user_password，用户密码
 -- user_name，用户角色名称
-CREATE ROLE role_name WITH CREATEDB CREATEROLE LOGIN PASSWORD 'user_password';
-CREATE user user_name PASSWORD 'user_password';
+CREATE ROLE {role_name} WITH CREATEDB CREATEROLE LOGIN PASSWORD '{user_password}';
+CREATE user {user_name} PASSWORD '{user_password}';
 
 -- 分配所有权限
 -- database_name，数据库名称
 -- database_user，数据库用户
-GRANT ALL PRIVILEGES ON database_name TO database_user;
+GRANT ALL PRIVILEGES ON {database_name} TO {database_user};
 
 -- 修改表的 Owner
-ALTER TABLE table_name OWNER TO database_user;
+-- table_name，表名
+-- database_user，数据库用户
+ALTER TABLE {table_name} OWNER TO {database_user};
 
 -- 分配 FUNCTION 的权限给指定用户
 -- function_name，函数名称
 -- parameter1_type，第一个函数参数类型
 -- parameter2_type，第二个函数参数类型
 -- database_user，数据库用户
-GRANT EXECUTE ON FUNCTION function_name(parameter1_type, parameter2_type, ...) TO database_user;
+GRANT EXECUTE ON FUNCTION {function_name}([{parameter1_type}, {parameter2_type}, ...]) TO {database_user};
 
 -- 修改 FUNCTION 的 Owner
 -- function_name，函数名称
 -- parameter1_type，第一个函数参数类型
 -- parameter2_type，第二个函数参数类型
 -- database_user，数据库用户
-ALTER FUNCTION function_name(parameter1_type, parameter2_type, ...) OWNER TO database_user;
+ALTER FUNCTION {function_name}([{parameter1_type}, {parameter2_type}, ...]) OWNER TO {database_user};
 ```
 
 ## 运行分析
@@ -182,7 +188,8 @@ FROM information_schema.tables
 ORDER BY pg_relation_size(table_schema || '.' || table_name) DESC LIMIT 20;
 
 -- 查询单个表大小
-SELECT pg_size_pretty(pg_relation_size(table_name));
+-- table_name，表名
+SELECT pg_size_pretty(pg_relation_size({table_name}));
 
 -- 查询数据库活动的查询
 SELECT current_timestamp - query_start AS runtime
@@ -208,13 +215,13 @@ SELECT pg_terminate_backend(pid int);
 -- source_db，数据库名称
 SELECT pg_terminate_backend(pg_stat_activity.pid)
 FROM pg_stat_activity
-WHERE pg_stat_activity.datname = 'source_db'
+WHERE pg_stat_activity.datname = '{source_db}'
 AND pid <> pg_backend_pid();
 
 -- garbage-collect and optionally analyze a database
 -- table_name，数据库表名
-VACUUM table_name;
-VACUUM FULL table_name;
+VACUUM {table_name};
+VACUUM FULL {table_name};
 ```
 
 ### 配置
@@ -231,9 +238,13 @@ SELECT pg_reload_conf();
 ### 备份还原
 
 ```bash
-pg_dump -h host_name -U database_user -F c -b -v -f file_path database_name
+# host_name，主机
+# database_user，数据库用户
+# file_path，备份文件路径
+# database_name，数据库名称
+pg_dump -h {host_name} -U {database_user} -F c -b -v -f {file_path} {database_name}
 
-pg_restore -h host_name -U database_user --no-owner -d database_name file_path
+pg_restore -h {host_name} -U {database_user} --no-owner -d {database_name} {file_path}
 ```
 
 ## 其他
@@ -254,7 +265,9 @@ DEALLOCATE foo;
 
 ```sql
 -- 查询时间差
-SELECT EXTRACT(epoch FROM (begin_time - end_time));
+-- begin_time
+-- end_time
+SELECT EXTRACT(epoch FROM ({begin_time} - {end_time}));
 
 -- Query the last month in format 'YYYYMM'
 SELECT to_char(date_trunc('month', current_date - interval '1' month), 'YYYYMM');
@@ -264,11 +277,14 @@ SELECT to_char(date_trunc('month', current_date - interval '1' month), 'YYYYMM')
 
 ```bash
 # 打开数据库连接
-psql -h host_name -U database_user
+# host_name
+# database_user
+psql -h {host_name} -U {database_user}
 
 # 列出所有的数据库
 \l
 
 # 连接数据
-\c database_name
+# database_name
+\c {database_name}
 ```
