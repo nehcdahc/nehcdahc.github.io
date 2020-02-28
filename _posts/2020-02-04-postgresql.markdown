@@ -75,6 +75,9 @@ COMMENT ON FUNCTION pg_catalog.text(bigint) IS 'convert bigint to text';
 ### 索引
 
 ```sql
+-- 创建索引
+CREATE INDEX IF NOT EXISTS {index_name} ON {table_name} USING btree ({column_name});
+
 -- Query the indexes of a table
 -- table_name，表名
 SELECT * FROM pg_indexes WHERE tablename IN ('{table_name}');
