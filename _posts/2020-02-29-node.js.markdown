@@ -2,7 +2,7 @@
 layout: post
 title: "Node.js"
 date: 2020-02-29 14:13:00 +0800
-categories: ["工具"]
+categories: ["工具", "编程框架"]
 ---
 
 ## 插件
