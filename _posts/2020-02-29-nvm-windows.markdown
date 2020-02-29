@@ -13,6 +13,12 @@ nvm-windows 是一个 Windows 的 node.js 版本管理工具。
 ## 常用命令
 
 ```powershell
+# 设定 node 镜像，中国建议使用 https://npm.taobao.org/mirrors/node/
+nvm node_mirror {node_mirror_url}
+
+# 设定 npm 镜像，中国建议使用 https://npm.taobao.org/mirrors/npm/
+nvm npm_mirror {npm_mirror_url}
+
 # 查看已经安装的 node.js 版本
 nvm list
 
