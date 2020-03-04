@@ -36,3 +36,28 @@ else {
 # 格式化
 Get-Date -Format 'HH31'
 ```
+
+## 参数
+
+```powershell
+
+# download.ps1
+Param (
+    [Parameter(Mandatory = $true)]
+    [String]
+    $FileName,
+    [Parameter(Mandatory = $true)]
+    [Uri[]]
+    $Addresses
+)
+
+for ($i = 0; $i -lt $Addresses.Count; $i++) {
+    #
+    # ...
+    #
+}
+
+# build.ps1
+$xtcUris = "http://...", "https://..."
+.\download.ps1 -FileName $xtc -Addresses $uris
+```
