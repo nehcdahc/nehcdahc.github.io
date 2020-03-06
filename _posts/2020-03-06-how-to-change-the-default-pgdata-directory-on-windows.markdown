@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "如果修改 Windows 上安装的 PostgreSQL 的 PGDATA 目录"
+title: "如何修改 Windows 上安装的 PostgreSQL 的 PGDATA 目录"
 date: 2020-03-06 18:30:00 +0800
 tags: [PostgreSQL, Database]
 categories: ["数据库", "编程语言"]
