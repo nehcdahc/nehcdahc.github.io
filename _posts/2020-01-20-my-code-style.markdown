@@ -56,6 +56,8 @@ categories: ["软件工程"]
 1. 【强制】SQL 语句的执行必须要参数化，以防止 SQL 注入。
 1. 【强制】使用 -- 进行行注释时，-- 后必须保留有且只有一个半角空格。
 1. 【强制】使用 COUNT(\*)，不要使用 COUNT(1)，参考 <https://blog.jooq.org/2019/09/19/whats-faster-count-or-count1/>
+1. 【推荐】不要使用多重视图，原因有两个：视图上创建视图有可能会降低 SQL 的性能；DROP VIEW 时可能会报错，需要 CASECADE，维护比较麻烦。
+1. 【推荐】为了聚合使用 GROUP BY；为了去重使用 DISTINCT。二者效率上应该是差不多的。
 
 ## markdown
 
