@@ -55,6 +55,7 @@ categories: ["软件工程"]
 1. 【推荐】SQL 语句中尽量不要做时间之类的格式化，以保证查询性能。
 1. 【强制】SQL 语句的执行必须要参数化，以防止 SQL 注入。
 1. 【强制】使用 -- 进行行注释时，-- 后必须保留有且只有一个半角空格。
+1. 【强制】使用 COUNT(\*)，不要使用 COUNT(1)，参考 <https://blog.jooq.org/2019/09/19/whats-faster-count-or-count1/>
 
 ## markdown
 
