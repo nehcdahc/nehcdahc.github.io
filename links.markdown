@@ -24,3 +24,7 @@ permalink: /links/
 - [百度脑图 - 便捷的思维工具](https://naotu.baidu.com/)
 - [URL Decoder/Encoder](https://meyerweb.com/eric/tools/dencoder/)
 - [Online GUID Generator](https://www.guidgenerator.com/online-guid-generator.aspx)
+
+## Mirrors
+
+- [清华大学开源软件镜像站 | Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/)
