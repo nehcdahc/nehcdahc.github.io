@@ -24,7 +24,7 @@ CREATE DATABASE {database_name} OWNER {database_user};
 -- database_user，用户名
 CREATE DATABASE {database_name} WITH OWNER = {database_user} ENCODING 'UTF8' LC_COLLATE = 'zh_CN.UTF-8' LC_CTYPE = 'zh_CN.UTF-8';
 -- OR WINDOWS
-CREATE DATABASE {database_name} WITH OWNER = database_user ENCODING 'UTF8' LC_COLLATE = 'Chinese (Simplified)_China.936' LC_CTYPE = 'Chinese (Simplified)_China.936';
+CREATE DATABASE {database_name} WITH OWNER = {database_user} ENCODING 'UTF8' LC_COLLATE = 'Chinese (Simplified)_China.936' LC_CTYPE = 'Chinese (Simplified)_China.936';
 
 -- 复制数据库
 -- database_name，数据库名称
