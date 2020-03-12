@@ -29,3 +29,7 @@ permalink: /links/
 ## Mirrors
 
 - [清华大学开源软件镜像站 | Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/)
+
+## Resources
+
+- [AngularJS 教程 | 菜鸟教程](https://www.runoob.com/angularjs/angularjs-tutorial.html)
