@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "常用 PostgreSQL 脚本"
-date:   2020-02-04 13:59:00 +0800
+title: "常用 PostgreSQL 脚本"
+date: 2020-02-04 13:59:00 +0800
 tags: [PostgreSQL, SQL, Database]
 categories: ["数据库", "编程语言"]
 ---
@@ -245,9 +245,9 @@ SELECT pg_reload_conf();
 # database_user，数据库用户
 # file_path，备份文件路径
 # database_name，数据库名称
-pg_dump -h {host_name} -U {database_user} -F c -b -v -f {file_path} {database_name}
+pg_dump --host {host_name} --port {port} --username {database_user} --format c --blobs --verbose --file {file_path} {database_name}
 
-pg_restore -h {host_name} -U {database_user} --no-owner -d {database_name} {file_path}
+pg_restore --host {host_name} --port {port} --username {database_user} --no-owner --dbname {database_name} {file_path}
 ```
 
 ## 其他
@@ -291,3 +291,7 @@ psql -h {host_name} -U {database_user}
 # database_name
 \c {database_name}
 ```
+
+## 修改记录
+
+- 2020-03-12 23:02 修改备份脚本：增加了 port 参数；将缩写命令改成完整参数命令，便于阅读
