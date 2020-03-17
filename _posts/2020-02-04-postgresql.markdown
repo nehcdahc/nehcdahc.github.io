@@ -292,6 +292,15 @@ psql -h {host_name} -U {database_user}
 \c {database_name}
 ```
 
+### File Locations
+
+```sql
+SHOW data_directory;
+SHOW config_file;
+SHOW hba_file;
+```
+
 ## 修改记录
 
+- 2020-03-17 18:29 新增 File Locations 节点
 - 2020-03-12 23:02 修改备份脚本：增加了 port 参数；将缩写命令改成完整参数命令，便于阅读
