@@ -5,6 +5,10 @@ date: 2020-02-24 16:25:00 +0800
 categories: ["程序人生"]
 ---
 
+## 2020-03-17
+
+- 微软发布了一个 [.NET Core Uninstall Tool](https://docs.microsoft.com/en-us/dotnet/core/additional-tools/uninstall-tool?tabs=windows)。使用了下：清理了 5G 左右的 C 盘空间。
+
 ## 2020-02-24
 
 - gitee 上关于 #新冠肺炎 #2019-ncov  疫情相关开源项目汇总：<https://gitee.com/explore/2019-ncov>，截至 02/24 共计 39 个项目。
