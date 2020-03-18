@@ -5,6 +5,10 @@ date: 2020-02-24 16:25:00 +0800
 categories: ["程序人生"]
 ---
 
+## 2020-03-18
+
+- [我应该使用 Python3 来写代码](https://wiki.python.org/moin/Python2orPython3)
+
 ## 2020-03-17
 
 - 微软发布了一个 [.NET Core Uninstall Tool](https://docs.microsoft.com/en-us/dotnet/core/additional-tools/uninstall-tool?tabs=windows)。使用了下：清理了 5G 左右的 C 盘空间。
