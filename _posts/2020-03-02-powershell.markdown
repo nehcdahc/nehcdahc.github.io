@@ -61,3 +61,17 @@ for ($i = 0; $i -lt $Addresses.Count; $i++) {
 $xtcUris = "http://...", "https://..."
 .\download.ps1 -FileName $xtc -Addresses $uris
 ```
+
+## 服务
+
+```powershell
+# 停止服务
+Stop-Service -Name "{service_name}"
+
+# 查看服务状态
+Get-Service -Name "{service_name}"
+```
+
+## 修改记录
+
+- 2020-03-18 08:18 添加管理 Windows 服务的脚本
