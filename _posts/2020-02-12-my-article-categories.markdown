@@ -44,6 +44,8 @@ categories: ["软件工程"]
     - Winform
     - .NET Core
     - .NET Framework
+  - 爬虫
+    - Scrapy
 - 编程语言
   - Java
   - C#
