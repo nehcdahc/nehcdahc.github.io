@@ -146,6 +146,17 @@ WHERE
     NOT nspname LIKE 'pg%';
 ```
 
+## 数据查询和操作
+
+```sql
+-- 检查不存在则写入
+INSERT INTO {table_name}({column_name1} [, {column_name2}, ...])
+SELECT {column_value1} [, {column_value2}, ...]
+WHERE NOT EXISTS (
+    SELECT 1 FROM {table_name} WHERE ...
+)
+```
+
 ## 权限控制
 
 ```sql
@@ -302,5 +313,6 @@ SHOW hba_file;
 
 ## 修改记录
 
+- 2020-03-23 21:44 新增数据查询和操作的 SQL
 - 2020-03-17 18:29 新增 File Locations 节点
 - 2020-03-12 23:02 修改备份脚本：增加了 port 参数；将缩写命令改成完整参数命令，便于阅读
