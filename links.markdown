@@ -17,7 +17,7 @@ permalink: /links/
 - [码市](https://codemart.com/) - 互联网软件外包服务平台
 - [2captcha](https://2captcha.com/) - Online CAPTCHA Solving and Image Recognition Service.
 
-## Tool
+## Online tools
 
 - [Ping, mtr, dig and TCP port check from multiple locations](http://port.ping.pe/)
 - [Norton Password Manager](https://my.norton.com/extspa/passwordmanager?path=pwd-gen)
