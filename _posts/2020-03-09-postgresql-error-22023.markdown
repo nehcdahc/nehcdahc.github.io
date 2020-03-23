@@ -25,6 +25,8 @@ SQL Error [22023]: ERROR: new collation (Chinese (Simplified)_China.936) is inco
 
 ## 解决方案
 
+使用 TEMPLATE 指定创建数据库的模板数据库
+
 ```sql
 -- LC_COLLATE：string sort order
 -- LC_CTYPE：character classification
