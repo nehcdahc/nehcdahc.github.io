@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello to Scrapy"
+title: "Hello Scrapy"
 date: 2020-03-19 17:10:00 +0800
 tags: [Python, Scrapy]
 categories: ["编程框架", "编程语言", "工具"]
