@@ -11,6 +11,10 @@ permalink: /links/
 - [张鑫旭的个人主页 » 张鑫旭-鑫空间-鑫生活](https://www.zhangxinxu.com/)
 - [ZEALER 官网_Technology Stays True Here](https://www.zealer.com/)
 
+## Vlog
+
+- [李永乐老师](https://www.ixigua.com/home/4234740937/)
+
 ## Freelance Work
 
 - [实现网](https://shixian.com/) - 按需雇佣 BAT 工程师、设计师
