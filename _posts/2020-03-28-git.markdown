@@ -40,7 +40,13 @@ git fetch origin
 git reset --hard origin/{branch_name}
 git pull
 
-# 回滚提交
+# 回滚上一次提交到本地工作目录
+git reset --soft HEAD^
+
+# 回滚删除本地提交
+git reset --hard HEAD^
+
+# 回滚产生一个新反向的 commit
 git revert {commit_id}
 ```
 
