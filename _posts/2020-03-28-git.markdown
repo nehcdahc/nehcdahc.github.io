@@ -26,9 +26,6 @@ git push -u origin --all
 ## Commit
 
 ```bash
-# 撤销本地最后一次 commit
-git reset --soft HEAD~1
-
 # 查找包含某个 commit 的分支
 git branch --contains {commitid}
 
@@ -40,13 +37,13 @@ git fetch origin
 git reset --hard origin/{branch_name}
 git pull
 
-# 回滚上一次提交到本地工作目录
+# 回滚上一次提交，保留在本地工作目录
 git reset --soft HEAD^
 
-# 回滚删除本地提交
+# 回滚上一次提交，删除修改
 git reset --hard HEAD^
 
-# 回滚产生一个新反向的 commit
+# 回滚上一次提交，产生一个新反向的 commit
 git revert {commit_id}
 ```
 
