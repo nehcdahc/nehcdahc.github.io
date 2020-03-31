@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Foxmail"
+date: 2020-03-31 14:55:00 +0800
+categories: ["工具"]
+---
+
+1. Windows 10 机器上启动 Foxmail 后会不断的弹出用户账户控制对话框 Foxmail UAC。
+
+   解决方案：
+   将 Foxmail 设置为 Windows 的默认邮件客户端。
