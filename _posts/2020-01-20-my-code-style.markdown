@@ -32,7 +32,7 @@ categories: ["软件工程"]
    1. 背景（background，border 等）
    1. 其他（animation，transition 等）
 
-## CSharp
+## CSHARP
 
 1. 【强制】类的私有属性使用下划线开始的 lowerCamelCase 命名。示例：
 
@@ -59,7 +59,7 @@ categories: ["软件工程"]
 1. 【推荐】不要使用多重视图，原因有两个：视图上创建视图有可能会降低 SQL 的性能；DROP VIEW 时可能会报错，需要 CASECADE，维护比较麻烦。
 1. 【推荐】为了聚合使用 GROUP BY；为了去重使用 DISTINCT。二者效率上应该是差不多的。
 
-## markdown
+## MARKDOWN
 
 1. 【强制】.markdownlint.yaml
 
@@ -70,3 +70,11 @@ categories: ["软件工程"]
    MD040: false # Fenced code blocks should have a language specified
    MD041: false # First line in file should be a top level heading
    ```
+
+## CHANGELOG
+
+1. 【强制】更新日志撰写，请参考[如何维护更新日志](https://keepachangelog.com/)
+
+## 修改记录
+
+- 2020-04-08 17:32 新增了 CHANGELOG 撰写规范
