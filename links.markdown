@@ -41,3 +41,10 @@ permalink: /links/
 ## Cool Sites
 
 - [Awesome Open Source - Find Open Source By Searching, Browsing and Combining 7,000 Topics](https://awesomeopensource.com/)
+
+## Awesome Open Source
+
+- [jumpserver/jumpserver](https://github.com/jumpserver/jumpserver)
+- [getlantern/lantern](https://github.com/getlantern/lantern)
+- [angular/angular](https://github.com/angular/angular)
+- [vuejs/vue](https://github.com/vuejs/vue)
