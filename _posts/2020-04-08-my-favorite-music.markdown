@@ -52,3 +52,4 @@ categories: ["程序人生"]
 | 島人ぬ宝                          | BEGIN                          | 1+   |          |                                                                    |
 | 思ひで                            | 鈴木常吉                       | 1+   | 日本語   | [网易云音乐](http://music.163.com/song/22754969/?userid=268512663) |
 | 烟花三月                          | 童丽                           | 1+   | 中文     | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=nzSdkcg)           |
+| Live 酒馆 300 秒                  | 张悬                           | 1+   | 中文     | [网易云音乐](http://music.163.com/song/326734/?userid=268512663)   |
