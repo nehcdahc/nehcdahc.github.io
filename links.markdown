@@ -48,3 +48,5 @@ permalink: /links/
 - [getlantern/lantern](https://github.com/getlantern/lantern)
 - [angular/angular](https://github.com/angular/angular)
 - [vuejs/vue](https://github.com/vuejs/vue)
+- [wecatch/china_regions - 最全最新中国省，市，地区json及sql数据](https://github.com/wecatch/china_regions)
+- [instapp/china-regions - 最新中国省市地区行政区划数据 (动态更新)](https://github.com/instapp/china-regions)
