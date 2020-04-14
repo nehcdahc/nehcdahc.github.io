@@ -37,6 +37,9 @@ permalink: /links/
 ## Resources
 
 - [AngularJS 教程 - 菜鸟教程](https://www.runoob.com/angularjs/angularjs-tutorial.html)
+- [icons8.cn](https://icons8.cn/) - 下载免费图标、音乐、素材图片、矢量
+- [[字由]设计师必备字体利器](https://www.hellofont.cn/)
+- [Font Awesome](https://fontawesome.com/) - Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and toolkit.
 
 ## Cool Sites
 
@@ -46,7 +49,6 @@ permalink: /links/
 
 - [jumpserver/jumpserver](https://github.com/jumpserver/jumpserver)
 - [getlantern/lantern](https://github.com/getlantern/lantern)
-- [shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows) - If you want to keep a secret, you must also hide it from yourself.
 - [angular/angular](https://github.com/angular/angular)
 - [vuejs/vue](https://github.com/vuejs/vue)
 - [wecatch/china_regions](https://github.com/wecatch/china_regions) - 最全最新中国省，市，地区json及sql数据
