@@ -46,7 +46,21 @@ permalink: /links/
 
 - [jumpserver/jumpserver](https://github.com/jumpserver/jumpserver)
 - [getlantern/lantern](https://github.com/getlantern/lantern)
+- [shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows) - If you want to keep a secret, you must also hide it from yourself.
 - [angular/angular](https://github.com/angular/angular)
 - [vuejs/vue](https://github.com/vuejs/vue)
-- [wecatch/china_regions - 最全最新中国省，市，地区json及sql数据](https://github.com/wecatch/china_regions)
-- [instapp/china-regions - 最新中国省市地区行政区划数据 (动态更新)](https://github.com/instapp/china-regions)
+- [wecatch/china_regions](https://github.com/wecatch/china_regions) - 最全最新中国省，市，地区json及sql数据
+- [instapp/china-regions](https://github.com/instapp/china-regions) - 最新中国省市地区行政区划数据 (动态更新)
+- [apache/incubator-echarts](https://github.com/apache/incubator-echarts)
+- [markedjs/marked](https://github.com/markedjs/marked) - A markdown parser and compiler. Built for speed.
+- [hgoebl/mobile-detect.js](https://github.com/hgoebl/mobile-detect.js) - Device detection (phone, tablet, desktop, mobile grade, os, versions)
+- [ruby-china/How-To-Ask-Questions-The-Smart-Way](https://github.com/ruby-china/How-To-Ask-Questions-The-Smart-Way)
+- [github/gitignore](https://github.com/github/gitignore) - A collection of useful .gitignore templates
+- [foreversd/forever](https://github.com/foreversd/forever) - A simple CLI tool for ensuring that a given script runs continuously (i.e. forever)
+- [mzlogin/chinese-copywriting-guidelines](https://github.com/mzlogin/chinese-copywriting-guidelines) - 中文文案排版指北（简体中文版）
+- [dguo/make-a-readme](https://github.com/dguo/make-a-readme) - Because nobody can read your mind (yet)，<https://www.makeareadme.com/>
+- [github/choosealicense.com](https://github.com/github/choosealicense.com) - A site to provide non-judgmental guidance on choosing a license for your open source project, <https://choosealicense.com>
+- [semver/semver](https://github.com/semver/semver) - Semantic Versioning Specification, <http://semver.org>
+- [pirate/ArchiveBox](https://github.com/pirate/ArchiveBox) - The open source self-hosted web archive. Takes browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more..., <https://archivebox.io>
+- [liriliri/licia](https://github.com/liriliri/licia) - Useful utility collection with zero dependencies, <https://licia.liriliri.io/>
+- [jiansiting/Decryption-Tools](https://github.com/jiansiting/Decryption-Tools) - Decryption-Tools
