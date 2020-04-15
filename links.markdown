@@ -45,6 +45,17 @@ permalink: /links/
 
 - [sonatype/nexus-public](https://github.com/sonatype/nexus-public) - Sonatype Nexus Repository Manager; Open-source codebase mirror <http://www.sonatype.com/nexus-reposit…>
 
+## Torrent Search Engine
+
+- [Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site](https://thepiratebay.org/)
+- [The Official Home of YIFY Movies Torrent Download - YTS](https://yts.mx/)
+- [EZTV - TV Torrents Online Series Download | Official](https://eztv.io/)
+- [Start | Zooqle: Verified torrents](https://zooqle.com/)
+- [Torrent Search Engine | 1337x.to](https://1337x.to/)
+- [RARBG Rarbg Index page](https://rarbg.to/index27.php)
+- [Browse :: Nyaa](https://nyaa.si/)
+- [iDope - the torrent search engine that doesn't track you.](https://idope.se/)
+
 ## Mirrors
 
 - [清华大学开源软件镜像站 - Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/)
