@@ -29,6 +29,21 @@ permalink: /links/
 - [URL Decoder/Encoder](https://meyerweb.com/eric/tools/dencoder/)
 - [Online GUID Generator](https://www.guidgenerator.com/online-guid-generator.aspx)
 - [万网获取本地公网IP地址](http://www.net.cn/static/customercare/yourip.asp)
+- [Firefox Send](https://send.firefox.com/)
+- [I18n Translation Search Engine| Free i18n Tools for App&Web](https://i18ns.com/) - App & Web I18n Translation Search, Over 150 million Translations
+- [Zen Flowchart: The Simplest Flowchart Maker | Free & Online Creator](https://www.zenflowchart.com/) - Zen Flowchart is the easiest online software to create flowcharts and more.
+- [crontab.guru - the cron schedule expression editor](https://crontab.guru/) - The quick and simple editor for cron schedule expressions by Cronitor
+- [QR Code Generator](https://www.the-qrcode-generator.com/)
+- [Online regex tester and debugger: PHP, PCRE, Python, Golang and JavaScript](https://regex101.com/)
+- [Free Online Tools For Developers - FreeFormatter.com](https://www.freeformatter.com/)
+- [SQL2FetchXML - Free online converter that converts SQL script to FetchXML - Powered by KingswaySoft](http://sql2fetchxml.com/)
+- [MD5 - Online generator md5 hash](http://www.md5.cz/)
+- [智图_图片压缩在线工具_在线制作webp](https://zhitu.isux.us/)
+- [TinyPNG – Compress PNG images while preserving transparency](https://tinypng.com/)
+
+## Development Tools
+
+- [sonatype/nexus-public](https://github.com/sonatype/nexus-public) - Sonatype Nexus Repository Manager; Open-source codebase mirror <http://www.sonatype.com/nexus-reposit…>
 
 ## Mirrors
 
@@ -40,6 +55,8 @@ permalink: /links/
 - [icons8.cn](https://icons8.cn/) - 下载免费图标、音乐、素材图片、矢量
 - [[字由]设计师必备字体利器](https://www.hellofont.cn/)
 - [Font Awesome](https://fontawesome.com/) - Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and toolkit.
+- [Material Design Color Palette Generator - Material Palette](https://www.materialpalette.com/)
+- [中國哲學書電子化計劃](https://ctext.org/zh)
 
 ## Cool Sites
 
@@ -58,11 +75,13 @@ permalink: /links/
 - [hgoebl/mobile-detect.js](https://github.com/hgoebl/mobile-detect.js) - Device detection (phone, tablet, desktop, mobile grade, os, versions)
 - [ruby-china/How-To-Ask-Questions-The-Smart-Way](https://github.com/ruby-china/How-To-Ask-Questions-The-Smart-Way)
 - [github/gitignore](https://github.com/github/gitignore) - A collection of useful .gitignore templates
+- [toptal/gitignore.io](https://github.com/toptal/gitignore.io) - Create useful .gitignore files for your project <https://gitignore.io>
 - [foreversd/forever](https://github.com/foreversd/forever) - A simple CLI tool for ensuring that a given script runs continuously (i.e. forever)
 - [mzlogin/chinese-copywriting-guidelines](https://github.com/mzlogin/chinese-copywriting-guidelines) - 中文文案排版指北（简体中文版）
 - [dguo/make-a-readme](https://github.com/dguo/make-a-readme) - Because nobody can read your mind (yet)，<https://www.makeareadme.com/>
-- [github/choosealicense.com](https://github.com/github/choosealicense.com) - A site to provide non-judgmental guidance on choosing a license for your open source project, <https://choosealicense.com>
-- [semver/semver](https://github.com/semver/semver) - Semantic Versioning Specification, <http://semver.org>
-- [pirate/ArchiveBox](https://github.com/pirate/ArchiveBox) - The open source self-hosted web archive. Takes browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more..., <https://archivebox.io>
-- [liriliri/licia](https://github.com/liriliri/licia) - Useful utility collection with zero dependencies, <https://licia.liriliri.io/>
+- [github/choosealicense.com](https://github.com/github/choosealicense.com) - A site to provide non-judgmental guidance on choosing a license for your open source project <https://choosealicense.com>
+- [semver/semver](https://github.com/semver/semver) - Semantic Versioning Specification <http://semver.org>
+- [pirate/ArchiveBox](https://github.com/pirate/ArchiveBox) - The open source self-hosted web archive. Takes browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more... <https://archivebox.io>
+- [liriliri/licia](https://github.com/liriliri/licia) - Useful utility collection with zero dependencies <https://licia.liriliri.io/>
 - [jiansiting/Decryption-Tools](https://github.com/jiansiting/Decryption-Tools) - Decryption-Tools
+- [thangchung/awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core) - A collection of awesome .NET core libraries, tools, frameworks and software
