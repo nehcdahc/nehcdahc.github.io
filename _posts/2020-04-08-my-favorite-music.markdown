@@ -17,7 +17,7 @@ categories: ["程序人生"]
 | Someone Like You                  | Adele                          | 1+   | English  |                                                                    |
 | 他不懂                            | 张杰                           | 1+   | 中文     |                                                                    |
 | 记事本                            | 陈慧琳                         | 1+   | 中文     |                                                                    |
-| 초대                              | 엄정화                         | 1+   | 한국어   |                                                                    |
+| 초대                              | 엄정화                         | 2+   | 한국어   | [虾米音乐](https://www.xiami.com/song/2385465)                  |
 | 성인식                            | 박지윤                         | 1+   | 한국어   |                                                                    |
 | Use Me                            | 웅산                           | 1+   |          |                                                                    |
 | Mr.K                              | 门あさ美                       | 1+   | 日本語   |                                                                    |
@@ -31,7 +31,7 @@ categories: ["程序人生"]
 | 夏をあきらめて                    | 研ナオコ                       | 1+   |          |                                                                    |
 | アイロニ                          | majiko                         | 2+   |          |                                                                    |
 | Can't Stop                        | CNBLUE                         | 1+   |          |                                                                    |
-| Skyfall                           | Damiano/敏雅                   | 1+   |          |                                                                    |
+| Skyfall                           | Damiano/敏雅                   | 2+   |          | [虾米音乐](https://www.xiami.com/song/1773702222)                  |
 | Reset                             | Tiger JK/Jinsil                | 1+   |          |                                                                    |
 | Beautiful Girl                    | 레게 강 같은 평화 (RGP)/权正烈 | 2+   |          |                                                                    |
 | Last Smile                        | LOVE PSYCHEDELICO              | 1+   |          |                                                                    |
@@ -52,4 +52,5 @@ categories: ["程序人生"]
 | 島人ぬ宝                          | BEGIN                          | 1+   |          |                                                                    |
 | 思ひで                            | 鈴木常吉                       | 1+   | 日本語   | [网易云音乐](http://music.163.com/song/22754969/?userid=268512663) |
 | 烟花三月                          | 童丽                           | 1+   | 中文     | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=nzSdkcg)           |
+| Live 酒馆 300 秒                  | 张悬                           | 1+   | 中文     | [网易云音乐](http://music.163.com/song/326734/?userid=268512663)   |
 | Live 酒馆 300 秒                  | 张悬                           | 1+   | 中文     | [网易云音乐](http://music.163.com/song/326734/?userid=268512663)   |
