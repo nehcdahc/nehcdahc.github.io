@@ -69,6 +69,7 @@ permalink: /links/
 - [Font Awesome](https://fontawesome.com/) - Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and toolkit.
 - [Material Design Color Palette Generator - Material Palette](https://www.materialpalette.com/)
 - [中國哲學書電子化計劃](https://ctext.org/zh)
+- [Bash 脚本教程 - 网道](https://wangdoc.com/bash/)
 
 ## Cool Sites
 
