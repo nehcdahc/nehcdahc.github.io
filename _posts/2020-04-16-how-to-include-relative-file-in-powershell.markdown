@@ -14,7 +14,7 @@ categories: ["操作系统"]
 第二个脚本 scripts\publish.ps1 调用第一个脚本 scripts\help.ps1，内容如下：
 
 ```powershell
-. ".\help.ps1"
+. ".\help.ps1" # 关于 . 操作符，可以参考这里 https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_operators?view=powershell-7#dot-sourcing-operator-
 # ...
 ```
 
@@ -26,3 +26,7 @@ categories: ["操作系统"]
 . "$PSScriptRoot\help.ps1"
 # ...
 ```
+
+##　参考
+
+- <https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_operators>
