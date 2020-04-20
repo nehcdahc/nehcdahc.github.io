@@ -1,8 +1,7 @@
 ---
-layout: post
-title: "我喜欢的音乐"
-date: 2020-04-08 19:54:00 +0800
-categories: ["程序人生"]
+layout: page
+title: Music
+permalink: /music/
 ---
 
 | Name                              | Artist                         | Like | Language        | Links                                                                |
