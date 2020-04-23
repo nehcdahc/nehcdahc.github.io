@@ -10,6 +10,7 @@ permalink: /music/
 | Single                            | Natasha Bedingfield            | 1+   | English         |                                                                      |
 | 细汉仔                            | 陈升                           | 1+   |                 |                                                                      |
 | 淯水吟                            | 毛阿敏                         | 1+   | 中文            |                                                                      |
+| 历史的天空                        | 毛阿敏                         | 1+   | 中文            | [虾米音乐](https://www.xiami.com/song/134470)                        |
 | ありがとう                        | KOKIA                          | 1+   | 日本語          |                                                                      |
 | 니가 사는 그집                    | 박진영                         | 1+   | 한국어          |                                                                      |
 | 追梦的孩子                        | 段林希                         | 1+   | 中文            |                                                                      |
@@ -55,3 +56,5 @@ permalink: /music/
 | 被动 feat. 伍佰(Live)             | 徐佳莹/伍佰                    | 1+   | 中文            | [网易云音乐](http://music.163.com/song/1408017141/?userid=268512663) |
 | Chocolate Cream                   | Laysha (레이샤)/낯선 (Nassun)  | 1+   | 한국어, English | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=berwY3x)             |
 | 他不爱我                          | 莫文蔚                         | 1+   | 中文            | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=IgT3Y3M)             |
+| Give Love                         | 악동뮤지션                     | 1+   |                 | [虾米音乐](https://www.xiami.com/song/1772880603)                    |
+| 뚝방의 꿈                         | Gary/John Park                 | 1+   |                 | [虾米音乐](https://www.xiami.com/song/1774817710)                    |
