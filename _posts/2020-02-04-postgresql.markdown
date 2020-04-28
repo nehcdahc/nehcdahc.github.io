@@ -219,6 +219,9 @@ ORDER BY 1 DESC limit 20;
 ## 运行维护
 
 ```sql
+-- Check server version
+SELECT VERSION();
+
 -- Cancel Processes by pid
 SELECT pg_cancel_backend(pid int);
 
@@ -313,6 +316,7 @@ SHOW hba_file;
 
 ## 修改记录
 
+- 2020-04-28 16:26 新增查询服务器版本的 SQL
 - 2020-03-23 21:44 新增数据查询和操作的 SQL
 - 2020-03-17 18:29 新增 File Locations 节点
 - 2020-03-12 23:02 修改备份脚本：增加了 port 参数；将缩写命令改成完整参数命令，便于阅读
