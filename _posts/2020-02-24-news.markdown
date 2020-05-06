@@ -5,6 +5,10 @@ date: 2020-02-24 16:25:00 +0800
 categories: ["程序人生"]
 ---
 
+## 2020-05-06
+
+- [DBeaver 开源基于 Web 的云版本 CloudBeaver](https://github.com/dbeaver/cloudbeaver)
+
 ## 2020-04-16
 
 - 我们应该坚持喝牛奶；由于亚洲人有乳糖耐受的问题，我们应该优先选择酸奶、无乳糖牛奶，或者少量多次的方式饮用纯牛奶。原因看这里：[牛奶：必需品还是阴谋？告诉你关于牛奶的一切](https://m.ixigua.com/group/6810660097530790403/?app=video_article&timestamp=1587004260&utm_source=native_share&utm_medium=android&utm_campaign=client_share)
