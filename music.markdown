@@ -66,3 +66,5 @@ permalink: /music/
 | Bk Love                                                               | BK/Mr-버블/Mc Sniper           | 1+   |                 | [虾米音乐](https://www.xiami.com/song/3586351)                       |
 | Get Up                                                                | Baby V.O.X                     | 1+   |                 | [虾米音乐](https://www.xiami.com/song/1768940568)                    |
 | STEP                                                                  | 카라                           | 1+   |                 | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=kmNxA3b)             |
+| Moonsea                                                               | Phildel                        | 1+   |                 | [网易云音乐](http://music.163.com/song/26183616/?userid=268512663)   |
+| 一腔诗意喂了狗                                                        | 花粥                           | 1+   |                 | [网易云音乐](http://music.163.com/song/460542191/?userid=268512663)  |
