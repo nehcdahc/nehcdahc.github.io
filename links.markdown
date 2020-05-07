@@ -16,11 +16,13 @@ permalink: /links/
 
 - [李永乐老师](https://www.ixigua.com/home/4234740937/)
 
-## Freelance Work
+## Jobs
 
 - [实现网](https://shixian.com/) - 按需雇佣 BAT 工程师、设计师
 - [码市](https://codemart.com/) - 互联网软件外包服务平台
 - [2captcha](https://2captcha.com/) - Online CAPTCHA Solving and Image Recognition Service.
+- [Developer Jobs in Japan - A Job A Week Keeps The Doctor Away](https://japanjobs.dev/)
+- [500'000€ Prize for Compressing Human Knowledge](http://hutter1.net/prize/index.htm)
 
 ## Online Tools
 
