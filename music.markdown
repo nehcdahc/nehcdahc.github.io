@@ -14,12 +14,15 @@ permalink: /music/
 | 東京                                                                  | 柴田淳                         | 2+   | 日本語          |                                                                      |
 | Love Hurts                                                            | Rachael Yamagata               | 2+   |                 |                                                                      |
 | 島人ぬ宝                                                              | BEGIN                          | 2+   |                 | [网易云音乐](http://music.163.com/song/694660/?userid=268512663)     |
+| 马马嘟嘟骑                                                            | 斯斯与帆                       | 2+   |                 | [网易云音乐](http://music.163.com/song/486855953/?userid=268512663)  |
+| Bk Love                                                               | BK/Mr-버블/Mc Sniper           | 2+   |                 | [虾米音乐](https://www.xiami.com/song/3586351)                       |
 | 我曾爱过一个男孩                                                      | 陈升、刘若英                   | 1+   | 中文            |                                                                      |
 | Single                                                                | Natasha Bedingfield            | 1+   | English         |                                                                      |
 | 细汉仔                                                                | 陈升                           | 1+   |                 |                                                                      |
 | 淯水吟                                                                | 毛阿敏                         | 1+   | 中文            |                                                                      |
 | 历史的天空                                                            | 毛阿敏                         | 1+   | 中文            | [虾米音乐](https://www.xiami.com/song/134470)                        |
 | ありがとう                                                            | KOKIA                          | 1+   | 日本語          |                                                                      |
+| 白雪                                                                  | KOKIA                          | 1+   |                 | [虾米音乐](https://www.xiami.com/song/2075929)                       |
 | 니가 사는 그집                                                        | 박진영                         | 1+   | 한국어          |                                                                      |
 | 追梦的孩子                                                            | 段林希                         | 1+   | 中文            |                                                                      |
 | Someone Like You                                                      | Adele                          | 1+   | English         |                                                                      |
@@ -62,11 +65,12 @@ permalink: /music/
 | 左耳                                                                  | 赵薇                           | 1+   | 中文            | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=UzzqA3Q)             |
 | 1분 1초                                                               | Epik High                      | 1+   |                 | [虾米音乐](https://www.xiami.com/song/3391408)                       |
 | hope is a dangerous thing for a woman like me to have - but I have it | Lana Del Rey                   | 1+   |                 | [网易云音乐](http://music.163.com/song/1338268110/?userid=268512663) |
-| 马马嘟嘟骑                                                            | 斯斯与帆                       | 1+   |                 | [网易云音乐](http://music.163.com/song/486855953/?userid=268512663)  |
-| Bk Love                                                               | BK/Mr-버블/Mc Sniper           | 1+   |                 | [虾米音乐](https://www.xiami.com/song/3586351)                       |
 | Get Up                                                                | Baby V.O.X                     | 1+   |                 | [虾米音乐](https://www.xiami.com/song/1768940568)                    |
 | STEP                                                                  | 카라                           | 1+   |                 | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=kmNxA3b)             |
 | Moonsea                                                               | Phildel                        | 1+   |                 | [网易云音乐](http://music.163.com/song/26183616/?userid=268512663)   |
 | 一腔诗意喂了狗                                                        | 花粥                           | 1+   |                 | [网易云音乐](http://music.163.com/song/460542191/?userid=268512663)  |
 | 空空如也                                                              | 任然                           | 1+   | 中文            | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=01QNOhi)             |
 | Friends                                                               | Big Gigantic/Ashe              | 1+   |                 | [网易云音乐](http://music.163.com/song/1384484932/?userid=268512663) |
+| Wind                                                                  | Akeboshi (明星嘉男)            | 1+   |                 | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=2in2M3c)             |
+| So Hot (korean Ver.)                                                  | Wonder Girls (원더걸스)        | 1+   |                 | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=U2HBH3g)             |
+| 只要平凡 (电影《我不是药神》主题曲)                                   | 张杰/张碧晨                    | 1+   |                 | [网易云音乐](http://music.163.com/song/574919767/?userid=268512663)  |
