@@ -68,3 +68,5 @@ permalink: /music/
 | STEP                                                                  | 카라                           | 1+   |                 | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=kmNxA3b)             |
 | Moonsea                                                               | Phildel                        | 1+   |                 | [网易云音乐](http://music.163.com/song/26183616/?userid=268512663)   |
 | 一腔诗意喂了狗                                                        | 花粥                           | 1+   |                 | [网易云音乐](http://music.163.com/song/460542191/?userid=268512663)  |
+| 空空如也                                                              | 任然                           | 1+   | 中文            | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=01QNOhi)             |
+| Friends                                                               | Big Gigantic/Ashe              | 1+   |                 | [网易云音乐](http://music.163.com/song/1384484932/?userid=268512663) |
