@@ -23,3 +23,7 @@ permalink: /news/
 ## 2020-02-24
 
 - gitee 上关于 #新冠肺炎 #2019-ncov  疫情相关开源项目汇总：<https://gitee.com/explore/2019-ncov>，截至 02/24 共计 39 个项目。
+
+## 2019-01-21
+
+- [为什么习惯比目标更重要](https://m.igetget.com/share/course/article?id=zl12vGeNAM0YVp7W1KdmxjOQBP5oLr)

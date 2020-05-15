@@ -152,3 +152,8 @@ permalink: /links/
   - [pirate/ArchiveBox](https://github.com/pirate/ArchiveBox) - The open source self-hosted web archive. Takes browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more... <https://archivebox.io>
   - [liriliri/licia](https://github.com/liriliri/licia) - Useful utility collection with zero dependencies <https://licia.liriliri.io/>
   - [jiansiting/Decryption-Tools](https://github.com/jiansiting/Decryption-Tools) - Decryption-Tools
+
+## 管理
+
+- [为什么习惯比目标更重要](https://m.igetget.com/share/course/article?id=zl12vGeNAM0YVp7W1KdmxjOQBP5oLr)
+- [Netflix Culture](https://jobs.netflix.com/culture)
