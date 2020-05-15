@@ -153,7 +153,7 @@ permalink: /links/
   - [liriliri/licia](https://github.com/liriliri/licia) - Useful utility collection with zero dependencies <https://licia.liriliri.io/>
   - [jiansiting/Decryption-Tools](https://github.com/jiansiting/Decryption-Tools) - Decryption-Tools
 
-## 管理
+## Management
 
 - [为什么习惯比目标更重要](https://m.igetget.com/share/course/article?id=zl12vGeNAM0YVp7W1KdmxjOQBP5oLr)
 - [Netflix Culture](https://jobs.netflix.com/culture)
