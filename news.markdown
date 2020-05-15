@@ -1,8 +1,7 @@
 ---
-layout: post
-title: "新闻"
-date: 2020-02-24 16:25:00 +0800
-categories: ["程序人生"]
+layout: page
+title: News
+permalink: /news/
 ---
 
 ## 2020-05-06
