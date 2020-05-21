@@ -74,3 +74,4 @@ permalink: /music/
 | Wind                                                                  | Akeboshi (明星嘉男)            | 1+   |                 | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=2in2M3c)             |
 | So Hot (korean Ver.)                                                  | Wonder Girls (원더걸스)        | 1+   |                 | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=U2HBH3g)             |
 | 只要平凡 (电影《我不是药神》主题曲)                                   | 张杰/张碧晨                    | 1+   |                 | [网易云音乐](http://music.163.com/song/574919767/?userid=268512663)  |
+| 不留                                                                  | 王菲                           | 1+   |                 |                                                                      |
