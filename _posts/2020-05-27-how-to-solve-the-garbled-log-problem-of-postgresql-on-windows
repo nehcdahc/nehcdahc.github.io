@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "如何解决 Windows 10 上安装 PostgreSQL 日志乱码的问题"
+date:   2020-05-27 11:44:00 +0800
+tags: [PostgreSQL, SQL, Database]
+categories: ["数据库", "编程语言"]
+---
+
+1. 打开配置文件 ~\data\postgresql.conf
+1. 修改 lc_messages = 'C'
