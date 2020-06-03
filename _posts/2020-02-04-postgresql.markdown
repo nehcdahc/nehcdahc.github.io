@@ -31,6 +31,17 @@ CREATE DATABASE {database_name} WITH OWNER = {database_user} ENCODING 'UTF8' LC_
 -- database_user，用户名
 -- original_database_name，原始数据库名称
 CREATE DATABASE {database_name} WITH TEMPLATE {original_database_name} OWNER {database_user};
+
+-- 重命名数据库
+-- database_name，数据库名称
+-- new_database_name，新的数据库名称
+SELECT
+    pg_terminate_backend (pid)
+FROM
+    pg_stat_activity
+WHERE
+    datname = '{database_name}';
+ALTER DATABASE {database_name} RENAME TO {new_database_name};
 ```
 
 ### 表
@@ -316,6 +327,7 @@ SHOW hba_file;
 
 ## 修改记录
 
+- 2020-06-03 10:27 新增修改数据库名的 SQL
 - 2020-04-28 16:26 新增查询服务器版本的 SQL
 - 2020-03-23 21:44 新增数据查询和操作的 SQL
 - 2020-03-17 18:29 新增 File Locations 节点
