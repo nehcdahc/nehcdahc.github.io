@@ -16,6 +16,7 @@ permalink: /music/
 | 島人ぬ宝                                                              | BEGIN                          | 2+   |                 | [网易云音乐](http://music.163.com/song/694660/?userid=268512663)     |
 | 马马嘟嘟骑                                                            | 斯斯与帆                       | 2+   |                 | [网易云音乐](http://music.163.com/song/486855953/?userid=268512663)  |
 | Bk Love                                                               | BK/Mr-버블/Mc Sniper           | 2+   |                 | [虾米音乐](https://www.xiami.com/song/3586351)                       |
+| 左耳                                                                  | 赵薇                           | 2+   | 中文            | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=UzzqA3Q)             |
 | 我曾爱过一个男孩                                                      | 陈升、刘若英                   | 1+   | 中文            |                                                                      |
 | Single                                                                | Natasha Bedingfield            | 1+   | English         |                                                                      |
 | 细汉仔                                                                | 陈升                           | 1+   |                 |                                                                      |
@@ -62,7 +63,6 @@ permalink: /music/
 | Give Love                                                             | 악동뮤지션                     | 1+   |                 | [虾米音乐](https://www.xiami.com/song/1772880603)                    |
 | 뚝방의 꿈                                                             | Gary/John Park                 | 1+   |                 | [虾米音乐](https://www.xiami.com/song/1774817710)                    |
 | 爱过的你                                                              | 何洁                           | 1+   | 中文            | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=Ut7ZA3j)             |
-| 左耳                                                                  | 赵薇                           | 1+   | 中文            | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=UzzqA3Q)             |
 | 1분 1초                                                               | Epik High                      | 1+   |                 | [虾米音乐](https://www.xiami.com/song/3391408)                       |
 | hope is a dangerous thing for a woman like me to have - but I have it | Lana Del Rey                   | 1+   |                 | [网易云音乐](http://music.163.com/song/1338268110/?userid=268512663) |
 | Get Up                                                                | Baby V.O.X                     | 1+   |                 | [虾米音乐](https://www.xiami.com/song/1768940568)                    |
