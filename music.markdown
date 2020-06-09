@@ -17,6 +17,7 @@ permalink: /music/
 | 马马嘟嘟骑                                                            | 斯斯与帆                       | 2+   |                 | [网易云音乐](http://music.163.com/song/486855953/?userid=268512663)  |
 | Bk Love                                                               | BK/Mr-버블/Mc Sniper           | 2+   |                 | [虾米音乐](https://www.xiami.com/song/3586351)                       |
 | 左耳                                                                  | 赵薇                           | 2+   | 中文            | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=UzzqA3Q)             |
+| Friends                                                               | Big Gigantic/Ashe              | 2+   |                 | [网易云音乐](http://music.163.com/song/1384484932/?userid=268512663) |
 | 我曾爱过一个男孩                                                      | 陈升、刘若英                   | 1+   | 中文            |                                                                      |
 | Single                                                                | Natasha Bedingfield            | 1+   | English         |                                                                      |
 | 细汉仔                                                                | 陈升                           | 1+   |                 |                                                                      |
@@ -70,8 +71,8 @@ permalink: /music/
 | Moonsea                                                               | Phildel                        | 1+   |                 | [网易云音乐](http://music.163.com/song/26183616/?userid=268512663)   |
 | 一腔诗意喂了狗                                                        | 花粥                           | 1+   |                 | [网易云音乐](http://music.163.com/song/460542191/?userid=268512663)  |
 | 空空如也                                                              | 任然                           | 1+   | 中文            | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=01QNOhi)             |
-| Friends                                                               | Big Gigantic/Ashe              | 1+   |                 | [网易云音乐](http://music.163.com/song/1384484932/?userid=268512663) |
 | Wind                                                                  | Akeboshi (明星嘉男)            | 1+   |                 | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=2in2M3c)             |
 | So Hot (korean Ver.)                                                  | Wonder Girls (원더걸스)        | 1+   |                 | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=U2HBH3g)             |
 | 只要平凡 (电影《我不是药神》主题曲)                                   | 张杰/张碧晨                    | 1+   |                 | [网易云音乐](http://music.163.com/song/574919767/?userid=268512663)  |
 | 不留                                                                  | 王菲                           | 1+   |                 |                                                                      |
+| In Disguise                                                           | Ashe                           | 1+   |                 | [网易云音乐](http://music.163.com/song/1372711528/?userid=268512663) |
