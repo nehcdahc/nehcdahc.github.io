@@ -25,3 +25,7 @@ FOR /F "skip=2 tokens=2,*" %%A IN ('reg query "HKCU\Environment" /v "Path"') DO 
 call set newPath=%%systemPath:%{OLD_PATH}%=%emptyWord%%%
 reg add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment" /f /v Path /t REG_SZ /d "%newPath%"
 ```
+
+## 参考
+
+- <https://www3.ntu.edu.sg/home/ehchua/programming/howto/Environment_Variables.html#:~:text=To%20list%20all%20the%20environment%20variables%2C%20use%20the%20command%20%22%20env,Windows%20uses%20%25varname%25%20).>
