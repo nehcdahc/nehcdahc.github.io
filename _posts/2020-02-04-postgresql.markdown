@@ -270,7 +270,12 @@ SELECT pg_reload_conf();
 # database_user，数据库用户
 # file_path，备份文件路径
 # database_name，数据库名称
+# --blobs 在转储中包含大对象。除非指定了--schema, --table, --schema-only开关，否则这是默认行为。因此-b 开关仅用于在选择性转储的时候添加大对象。
+# --verbose 指定冗余模式。这样将令pg_dump 输出详细的对象评注以及转储文件的启停时间和进度信息到标准错误上。
+# --table=table
+# --exclude-table=table
 pg_dump --host {host_name} --port {port} --username {database_user} --format c --blobs --verbose --file {file_path} {database_name}
+pg_dump --host {host_name} --port {port} --username {database_user} --format c --table={table1_name} --table={table2_name} --verbose --file {file_path} {database_name}
 
 pg_restore --host {host_name} --port {port} --username {database_user} --no-owner --dbname {database_name} {file_path}
 ```
@@ -327,6 +332,7 @@ SHOW hba_file;
 
 ## 修改记录
 
+- 2020-06-12 19:15 新增了 pg_dump 指定表的脚本
 - 2020-06-03 10:27 新增修改数据库名的 SQL
 - 2020-04-28 16:26 新增查询服务器版本的 SQL
 - 2020-03-23 21:44 新增数据查询和操作的 SQL
