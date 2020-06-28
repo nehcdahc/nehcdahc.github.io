@@ -33,3 +33,10 @@ categories: ["解决方案", "虚拟化平台"]
 - [如何配置群机器人？-帮助中心-企业微信](https://work.weixin.qq.com/help?doc_id=13376)
 - [Webhooks · 语雀](https://www.yuque.com/yuque/developer/doc-webhook)
 - <https://github.com/ydCao/gitLab-robot-workwechat>
+- <https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook>
+- <https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-node>
+- <https://docs.microsoft.com/zh-cn/azure/azure-functions/functions-create-serverless-api>
+- <https://docs.microsoft.com/zh-cn/azure/azure-functions/functions-reference-node#environment-variables>
+- <https://docs.microsoft.com/zh-cn/azure/azure-functions/functions-create-first-function-vs-code?pivots=programming-language-javascript>
+- <https://www.jianshu.com/p/d1d6574c259d>
+- <https://github.com/ydCao/gitLab-robot-workwechat>
