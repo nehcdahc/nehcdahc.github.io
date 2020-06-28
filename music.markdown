@@ -76,3 +76,4 @@ permalink: /music/
 | 只要平凡 (电影《我不是药神》主题曲)                                   | 张杰/张碧晨                    | 1+   |                 | [网易云音乐](http://music.163.com/song/574919767/?userid=268512663)  |
 | 不留                                                                  | 王菲                           | 1+   |                 |                                                                      |
 | In Disguise                                                           | Ashe                           | 1+   |                 | [网易云音乐](http://music.163.com/song/1372711528/?userid=268512663) |
+| 不醉不会                                                              | 田馥甄                         | 1+   |                 | [虾米音乐](https://www.xiami.com/song/1771908208)                    |
