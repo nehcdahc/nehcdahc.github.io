@@ -20,6 +20,12 @@ cat /etc/os-release
 ssh -p 27987 root@174.137.51.125
 ```
 
+### 重启
+
+```bash
+reboot
+```
+
 ## CentOS
 
 ### 查询系统配置
