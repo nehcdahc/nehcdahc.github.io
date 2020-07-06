@@ -18,13 +18,13 @@ permalink: /music/
 | Bk Love                                                               | BK/Mr-버블/Mc Sniper           | 2+   |                 | [虾米音乐](https://www.xiami.com/song/3586351)                       |
 | 左耳                                                                  | 赵薇                           | 2+   | 中文            | [QQ 音乐](https://c.y.qq.com/base/fcgi-bin/u?__=UzzqA3Q)             |
 | Friends                                                               | Big Gigantic/Ashe              | 2+   |                 | [网易云音乐](http://music.163.com/song/1384484932/?userid=268512663) |
+| 白雪                                                                  | KOKIA                          | 2+   |                 | [虾米音乐](https://www.xiami.com/song/2075929)                       |
 | 我曾爱过一个男孩                                                      | 陈升、刘若英                   | 1+   | 中文            |                                                                      |
 | Single                                                                | Natasha Bedingfield            | 1+   | English         |                                                                      |
 | 细汉仔                                                                | 陈升                           | 1+   |                 |                                                                      |
 | 淯水吟                                                                | 毛阿敏                         | 1+   | 中文            |                                                                      |
 | 历史的天空                                                            | 毛阿敏                         | 1+   | 中文            | [虾米音乐](https://www.xiami.com/song/134470)                        |
 | ありがとう                                                            | KOKIA                          | 1+   | 日本語          |                                                                      |
-| 白雪                                                                  | KOKIA                          | 1+   |                 | [虾米音乐](https://www.xiami.com/song/2075929)                       |
 | 니가 사는 그집                                                        | 박진영                         | 1+   | 한국어          |                                                                      |
 | 追梦的孩子                                                            | 段林希                         | 1+   | 中文            |                                                                      |
 | Someone Like You                                                      | Adele                          | 1+   | English         |                                                                      |
@@ -77,3 +77,5 @@ permalink: /music/
 | 不留                                                                  | 王菲                           | 1+   |                 |                                                                      |
 | In Disguise                                                           | Ashe                           | 1+   |                 | [网易云音乐](http://music.163.com/song/1372711528/?userid=268512663) |
 | 不醉不会                                                              | 田馥甄                         | 1+   |                 | [虾米音乐](https://www.xiami.com/song/1771908208)                    |
+| 听你说                                                                | 郁可唯/林凡                    | 1+   |                 | [虾米音乐](https://www.xiami.com/song/1770257974)                    |
+| 걱정말아요 그대                                                       | 이적                           | 1+   |                 | 虾米音乐(https://www.xiami.com/song/1775262366 )                     |
