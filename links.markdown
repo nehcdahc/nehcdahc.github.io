@@ -159,6 +159,7 @@ permalink: /links/
   - [liriliri/licia](https://github.com/liriliri/licia) - Useful utility collection with zero dependencies <https://licia.liriliri.io/>
   - [jiansiting/Decryption-Tools](https://github.com/jiansiting/Decryption-Tools) - Decryption-Tools
   - [Tools for better thinking | Untools](https://untools.co/)
+  - [12 Open Source Web Security Scanner to Find Vulnerabilities - Geekflare](https://geekflare.com/open-source-web-security-scanner/)
 
 ## Management
 
