@@ -185,4 +185,3 @@ categories: ["解决方案", "虚拟化平台"]
 - <https://docs.microsoft.com/zh-cn/azure/azure-functions/functions-reference-node#environment-variables>
 - <https://docs.microsoft.com/zh-cn/azure/azure-functions/functions-create-first-function-vs-code?pivots=programming-language-javascript>
 - <https://www.jianshu.com/p/d1d6574c259d>
-- <https://github.com/ydCao/gitLab-robot-workwechat>
