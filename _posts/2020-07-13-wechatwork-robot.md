@@ -1,14 +1,18 @@
 ---
 layout: post
-title: "使用 Azure 函数应用推送 GitLab 消息到企业微信机器人"
+title: "使用 Azure 函数应用推送消息到企业微信机器人"
 date: 2020-06-23 16:35:00 +0800
-tags: ["WeChat Work", "Robot", "GitLab", "Azure"]
+tags: ["WeChat Work", "Robot", "GitLab", "Azure", "语雀"]
 categories: ["解决方案", "虚拟化平台"]
 ---
 
 ## 基本原理
 
-使用 GitLab 的 Webhooks 推送事件到 Azure 函数应用，由 Azure 函数应用转换 GitLab 事件消息，然后转发给企业微信的群机器人。
+我们有时会希望工作时使用同一个工具接管所有系统的消息。
+
+比如使用企业微信接管 GitLab、语雀、禅道等系统的 Webhooks。同时由于消息源（GitLab、禅道、……）系统输出的消息格式和监管工具接收的格式可能不一致，所以我们通常需要做消息格式转换。那么转换的工具可以自己构建一个应用发布出去，或者直接使用云服务（腾讯云函数、Azure 函数应用、……）构建。
+
+本文结合 GitLab Webhooks，Azure 函数和企业微信的群机器人实现上述过程。
 
 其中：
 
@@ -19,14 +23,18 @@ categories: ["解决方案", "虚拟化平台"]
 
 ## 示例步骤
 
-1. 创建一个企业微信群机器人。
+### 创建企业微信群机器人
 
-注意：
+具体可以参考[如何配置群机器人？-帮助中心-企业微信](https://work.weixin.qq.com/help?doc_id=13376)。
 
-- 必须是企业微信管理员才能创建群机器人
+### 创建 Azure 函数应用
 
-1. 创建 Azure 函数应用
-1. 添加 GitLab WebHooks
+1. 登录 Azure 的 Portal
+1. 创建函数应用
+
+    - 函数应用名称：wechatwork-robot
+
+### 添加 GitLab WebHooks
 
 ## 参考
 
