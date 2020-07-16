@@ -225,6 +225,25 @@ SELECT current_timestamp - query_start AS runtime
 FROM pg_stat_activity
 WHERE query_start IS NOT NULL
 ORDER BY 1 DESC limit 20;
+
+-- 查询系统中谁阻塞了谁
+-- From：《PostgreSQL for Data Architects 数据架构师的 PostgreSQL 修炼》 Jayadevan Maymala 著 戚长松 译
+SELECT
+    waiting1.pid AS waiting_pid,
+    waiting2.usename AS waiting_user,
+    waiting2.query AS waiting_statement,
+    blocking1.pid AS blocking_pid,
+    blocking2.usename AS blocking_user,
+    blocking2.query AS blocking_statement
+FROM pg_locks AS waiting1
+JOIN pg_stat_activity AS waiting2
+    ON waiting1.pid = waiting2.pid
+JOIN pg_locks AS blocking1
+    ON waiting1.transactionid = blocking1.transactionid
+        AND waiting1.pid != blocking1.pid
+JOIN pg_stat_activity AS blocking2
+    ON blocking1.pid = blocking2.pid
+WHERE NOT waiting1.GRANTED;
 ```
 
 ## 运行维护
@@ -332,6 +351,7 @@ SHOW hba_file;
 
 ## 修改记录
 
+- 2020-07-16 19:38 新增了查询阻塞情况的脚本
 - 2020-06-12 19:15 新增了 pg_dump 指定表的脚本
 - 2020-06-03 10:27 新增修改数据库名的 SQL
 - 2020-04-28 16:26 新增查询服务器版本的 SQL
