@@ -4,32 +4,6 @@ title: Links
 permalink: /links/
 ---
 
-## Online Tools
-
-- [Ping, mtr, dig and TCP port check from multiple locations](http://port.ping.pe/)
-- [Norton Password Manager](https://my.norton.com/extspa/passwordmanager?path=pwd-gen)
-- [百度脑图 - 便捷的思维工具](https://naotu.baidu.com/)
-- [URL Decoder/Encoder](https://meyerweb.com/eric/tools/dencoder/)
-- [Online GUID Generator](https://www.guidgenerator.com/online-guid-generator.aspx)
-- [万网获取本地公网 IP 地址](http://www.net.cn/static/customercare/yourip.asp)
-- [Firefox Send](https://send.firefox.com/)
-- [I18n Translation Search Engine| Free i18n Tools for App&Web](https://i18ns.com/) - App & Web I18n Translation Search, Over 150 million Translations
-- [Zen Flowchart: The Simplest Flowchart Maker | Free & Online Creator](https://www.zenflowchart.com/) - Zen Flowchart is the easiest online software to create flowcharts and more.
-- [crontab.guru - the cron schedule expression editor](https://crontab.guru/) - The quick and simple editor for cron schedule expressions by Cronitor
-- [QR Code Generator](https://www.the-qrcode-generator.com/)
-- [Online regex tester and debugger: PHP, PCRE, Python, Golang and JavaScript](https://regex101.com/)
-- [Free Online Tools For Developers - FreeFormatter.com](https://www.freeformatter.com/)
-- [SQL2FetchXML - Free online converter that converts SQL script to FetchXML - Powered by KingswaySoft](http://sql2fetchxml.com/)
-- [MD5 - Online generator md5 hash](http://www.md5.cz/)
-- [智图*图片压缩在线工具*在线制作 webp](https://zhitu.isux.us/)
-- [TinyPNG – Compress PNG images while preserving transparency](https://tinypng.com/)
-
-### Speller and grammar checker
-
-- [Reverso](https://www.reverso.net/spell-checker/english-spelling-grammar/)
-- [GrammarCheck](https://www.grammarcheck.net/editor/)
-- [Grammarly](https://www.grammarly.com/)
-
 ## Blogroll
 
 - [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
@@ -50,31 +24,10 @@ permalink: /links/
 - [Developer Jobs in Japan - A Job A Week Keeps The Doctor Away](https://japanjobs.dev/)
 - [500'000€ Prize for Compressing Human Knowledge](http://hutter1.net/prize/index.htm)
 
-## Development Tools
-
-- [sonatype/nexus-public](https://github.com/sonatype/nexus-public) - Sonatype Nexus Repository Manager; Open-source codebase mirror <http://www.sonatype.com/nexus-reposit…>
-
-## Torrent Search Engine
-
-- [Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site](https://thepiratebay.org/)
-- [The Official Home of YIFY Movies Torrent Download - YTS](https://yts.mx/)
-- [EZTV - TV Torrents Online Series Download | Official](https://eztv.io/)
-- [Start | Zooqle: Verified torrents](https://zooqle.com/)
-- [Torrent Search Engine | 1337x.to](https://1337x.to/)
-- [RARBG Rarbg Index page](https://rarbg.to/index27.php)
-- [Browse :: Nyaa](https://nyaa.si/)
-- [iDope - the torrent search engine that doesn't track you.](https://idope.se/)
-
-## Mirrors
-
-- [清华大学开源软件镜像站 - Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/)
-
 ## Resources
 
 - [AngularJS 教程 - 菜鸟教程](https://www.runoob.com/angularjs/angularjs-tutorial.html)
 - [icons8.cn](https://icons8.cn/) - 下载免费图标、音乐、素材图片、矢量
-- [[字由]设计师必备字体利器](https://www.hellofont.cn/)
-- [Font Awesome](https://fontawesome.com/) - Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and toolkit.
 - [Material Design Color Palette Generator - Material Palette](https://www.materialpalette.com/)
 - [中國哲學書電子化計劃](https://ctext.org/zh)
 - [Bash 脚本教程 - 网道](https://wangdoc.com/bash/)
@@ -141,8 +94,6 @@ permalink: /links/
   - [kriasoft/Folder-Structure-Conventions](https://github.com/kriasoft/Folder-Structure-Conventions)
   - [ruby-china/How-To-Ask-Questions-The-Smart-Way](https://github.com/ruby-china/How-To-Ask-Questions-The-Smart-Way)
   - [鳥哥的 Linux 私房菜](http://linux.vbird.org/)
-  - [jumpserver/jumpserver](https://github.com/jumpserver/jumpserver)
-  - [getlantern/lantern](https://github.com/getlantern/lantern)
   - [wecatch/china_regions](https://github.com/wecatch/china_regions) - 最全最新中国省，市，地区 json 及 sql 数据
   - [instapp/china-regions](https://github.com/instapp/china-regions) - 最新中国省市地区行政区划数据 (动态更新)
   - [markedjs/marked](https://github.com/markedjs/marked) - A markdown parser and compiler. Built for speed.
