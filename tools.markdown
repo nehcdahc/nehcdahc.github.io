@@ -13,7 +13,7 @@ permalink: /tools%20%26%20tesources/
 - [Online GUID Generator](https://www.guidgenerator.com/online-guid-generator.aspx)
 - [crontab.guru - the cron schedule expression editor](https://crontab.guru/) - The quick and simple editor for cron schedule expressions by Cronitor
 - [SQL2FetchXML - Free online converter that converts SQL script to FetchXML - Powered by KingswaySoft](http://sql2fetchxml.com/)
-- [I18n Translation Search Engine| Free i18n Tools for App&Web](https://i18ns.com/) - App & Web I18n Translation Search, Over 150 million Translations
+- [I18n Translation Search Engine \| Free i18n Tools for App&Web](https://i18ns.com/) - App & Web I18n Translation Search, Over 150 million Translations
 
 ### 仓库管理
 
@@ -21,7 +21,7 @@ permalink: /tools%20%26%20tesources/
 
 ### 设计
 
-- [Zen Flowchart: The Simplest Flowchart Maker | Free & Online Creator](https://www.zenflowchart.com/) - Zen Flowchart is the easiest online software to create flowcharts and more.
+- [Zen Flowchart: The Simplest Flowchart Maker \| Free & Online Creator](https://www.zenflowchart.com/) - Zen Flowchart is the easiest online software to create flowcharts and more.
 - [[字由]设计师必备字体利器](https://www.hellofont.cn/)
 - [Font Awesome](https://fontawesome.com/) - Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and toolkit.
 
@@ -52,9 +52,9 @@ permalink: /tools%20%26%20tesources/
 
 - [Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site](https://thepiratebay.org/)
 - [The Official Home of YIFY Movies Torrent Download - YTS](https://yts.mx/)
-- [EZTV - TV Torrents Online Series Download | Official](https://eztv.io/)
-- [Start | Zooqle: Verified torrents](https://zooqle.com/)
-- [Torrent Search Engine | 1337x.to](https://1337x.to/)
+- [EZTV - TV Torrents Online Series Download \| Official](https://eztv.io/)
+- [Start \| Zooqle: Verified torrents](https://zooqle.com/)
+- [Torrent Search Engine \| 1337x.to](https://1337x.to/)
 - [RARBG Rarbg Index page](https://rarbg.to/index27.php)
 - [Browse :: Nyaa](https://nyaa.si/)
 - [iDope - the torrent search engine that doesn't track you.](https://idope.se/)
@@ -67,4 +67,4 @@ permalink: /tools%20%26%20tesources/
 
 - [Norton Password Manager](https://my.norton.com/extspa/passwordmanager?path=pwd-gen)
 - [百度脑图 - 便捷的思维工具](https://naotu.baidu.com/)
-- [Explore the world one photo at a time | Bing Wallpaper](https://www.microsoft.com/en-us/bing/bing-wallpaper?rtc=1#primaryR2)
+- [Explore the world one photo at a time \| Bing Wallpaper](https://www.microsoft.com/en-us/bing/bing-wallpaper?rtc=1#primaryR2)
