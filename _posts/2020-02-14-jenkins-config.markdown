@@ -25,6 +25,16 @@ tags: [Jenkins, CICD]
     - Check out to specific local branch
       - Branch name: {branch_name, 10.29}
 
+## Build Triggers
+
+- Build when a change is pushed to GitLab. GitLab webhook URL: ...
+  - Secret token: 如果这个不设置 GitLab 的 Webhooks 配置会报 403 错误
+
+### 参考
+
+- <https://github.com/jenkinsci/gitlab-plugin/issues/375>
+- <https://www.cnblogs.com/kaerxifa/p/11671961.html>
+
 ## Build Environment
 
 ### Version Number Plug-In
