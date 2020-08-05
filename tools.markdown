@@ -68,3 +68,4 @@ permalink: /tools%20%26%20tesources/
 - [Norton Password Manager](https://my.norton.com/extspa/passwordmanager?path=pwd-gen)
 - [百度脑图 - 便捷的思维工具](https://naotu.baidu.com/)
 - [Explore the world one photo at a time &#124; Bing Wallpaper](https://www.microsoft.com/en-us/bing/bing-wallpaper?rtc=1#primaryR2)
+- [Choose an open source license | Choose a License](https://choosealicense.com/)
