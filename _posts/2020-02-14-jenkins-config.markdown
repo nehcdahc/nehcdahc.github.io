@@ -76,3 +76,15 @@ tags: [Jenkins, CICD]
     - Artifacts to deploy: {artifacts_to_deploy, \*\*}
     - Basedir: {dist_directory, dist/}
     - Remote File Location: {remote_file_location, f:/artifacts/\${BUILD_VERSION}}
+
+- 企业微信通知
+
+  > 需要安装插件 [qy-wechat-notification](https://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/qy-wechat-notification/) 才能使用
+
+  - Webhook地址: <https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=${key}>
+  - 发送开始构建信息: ✔
+  - 通知UserID: @${wechat_user_name}
+
+## 修改记录
+
+- 2020-08-12 新增了企业微信通知的配置说明
