@@ -269,6 +269,10 @@ AND pid <> pg_backend_pid();
 -- table_name，数据库表名
 VACUUM {table_name};
 VACUUM FULL {table_name};
+
+vacuumdb --help
+vacuumdb --host={host} --username={user_name} --all --full
+vacuumdb --host={host} --username={user_name} --all --full
 ```
 
 ### 配置
@@ -351,10 +355,11 @@ SHOW hba_file;
 
 ## 修改记录
 
-- 2020-07-16 19:38 新增了查询阻塞情况的脚本
-- 2020-06-12 19:15 新增了 pg_dump 指定表的脚本
-- 2020-06-03 10:27 新增修改数据库名的 SQL
-- 2020-04-28 16:26 新增查询服务器版本的 SQL
-- 2020-03-23 21:44 新增数据查询和操作的 SQL
-- 2020-03-17 18:29 新增 File Locations 节点
-- 2020-03-12 23:02 修改备份脚本：增加了 port 参数；将缩写命令改成完整参数命令，便于阅读
+- 2020-08-13 新增了 vacuumdb 清理数据库的脚本
+- 2020-07-16 新增了查询阻塞情况的脚本
+- 2020-06-12 新增了 pg_dump 指定表的脚本
+- 2020-06-03 新增修改数据库名的 SQL
+- 2020-04-28 新增查询服务器版本的 SQL
+- 2020-03-23 新增数据查询和操作的 SQL
+- 2020-03-17 新增 File Locations 节点
+- 2020-03-12 修改备份脚本：增加了 port 参数；将缩写命令改成完整参数命令，便于阅读
