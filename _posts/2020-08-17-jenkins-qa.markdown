@@ -1,100 +1,12 @@
 ---
 layout: post
-title: "Jenkins 安装配置及常见问题"
-date: 2020-08-17 14:03:00 +0800
+title: "Jenkins 常见问题"
+date: 2020-08-17 14:00:00 +0800
 categories: ["软件工程"]
 tags: [Jenkins, CICD]
 ---
 
-## Jenkins 安装配置
-
-### General
-
-- Use custom workspace
-  - Directory: {directory, d:\github\\}
-
-### Source Code Management
-
-#### Git plugin
-
-- Git
-  - Repositories
-    - Repository URL: {repository_url, <https://github.com/nehcdahc/nehcdahc.github.io.git>}
-    - Credentials: {credentials}
-  - Branches to build
-    - Branch Specifier (blank for 'any'): {branch_specifier, 10.29}
-  - Additional Behaviours
-    - Check out to specific local branch
-      - Branch name: {branch_name, 10.29}
-
-### Build Triggers
-
-- Build when a change is pushed to GitLab. GitLab webhook URL: ...
-  - Secret token: 如果这个不设置 GitLab 的 Webhooks 配置会报 403 错误
-
-#### 参考
-
-- <https://github.com/jenkinsci/gitlab-plugin/issues/375>
-- <https://www.cnblogs.com/kaerxifa/p/11671961.html>
-
-### Build Environment
-
-#### Version Number Plug-In
-
-- Create a formatted version number
-  - Environment Variable Name: BUILD_VERSION
-  - Version Number Format String: {branch_name, 10.29}.${BUILD_DATE_FORMATTED, "yyyyMMdd"}.${BUILDS_TODAY}
-  - Inject environment variables to the build process: Checked
-
-##### 参考
-
-- <https://www.cnblogs.com/wdliu/p/8312735.html>
-
-#### NodeJS Plugin
-
-- Provide Node & npm bin/ folder to PATH
-  - NodeJS Installation:
-  - npmrc file:
-  - Cache location:
-
-### Build
-
-#### PowerShell plugin
-
-- PowerShell
-  - Command
-
-  ```powershell
-  $env:Path+=";C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin"
-  {build_script, .\build.ps1}
-  ```
-
-### Post-build Actions
-
-#### Artifact Deployer Plug-in
-
-- Post-build Actions
-  - [ArtifactDeployer] - Deploy the artifacts from build workspace to remote locations
-    - Artifacts to deploy: {artifacts_to_deploy, \*\*}
-    - Basedir: {dist_directory, dist/}
-    - Remote File Location: {remote_file_location, f:/artifacts/\${BUILD_VERSION}}
-
-- 企业微信通知
-
-  > 需要安装插件 [qy-wechat-notification](https://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/qy-wechat-notification/) 才能使用
-
-  - Webhook地址：<https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=${key}>
-  - 仅失败才@：✔
-  - 发送开始构建信息：✔
-  - 仅失败才发送：✔
-  - 仅成功才发送：✔
-  - 仅构建中断才发送：✔
-  - 仅不稳定构建才发送：✔
-  - 通知UserID: @${wechat_user_name}
-
-## Jenkins 常见问题
-
-### 由于网络原因，Jenkins 插件可能无法正常安装
+## 由于网络原因，Jenkins 插件可能无法正常安装
 
 解决方案：
 
@@ -106,9 +18,9 @@ tags: [Jenkins, CICD]
 
     1. 访问 <https://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/>，下载需要的插件
     1. 打开 Jenkins > Manage Jenkins > Manage Plugins > Advanced > Upload Plugin，进行插件上传
-    1. 访问 <http://localhost:8080/restart>，以重启 Jenkins
+    1. 访问 <http://xxx.xxx.xxx.xxx:8080/restart>，以重启 Jenkins
 
-### Jenkins 访问特别慢，且不消耗服务器资源
+## Jenkins 访问特别慢，且不消耗服务器资源
 
 Jenkins 访问特别慢。CPU、内存、磁盘资源占用特别低。怀疑可能是配置问题。
 
@@ -125,12 +37,12 @@ Jenkins 访问特别慢。CPU、内存、磁盘资源占用特别低。怀疑可
 </service>
 ```
 
-#### 参考
+### 参考
 
 - <https://stackoverflow.com/questions/49457923/jenkins-jre-update>
 - <https://wiki.jenkins.io/display/JENKINS/Builds+failing+with+OutOfMemoryErrors>
 
-### Jenkins 安装 ruby-runtime 出错
+## Jenkins 安装 ruby-runtime 出错
 
 ```
 C:\Program Files (x86)\Jenkins\plugins\ruby-runtime\WEB-INF\lib\classes.jar: The process cannot access the file because it is being used by another process.
@@ -164,9 +76,23 @@ at jenkins.util.io.PathRemover.removeOrMakeRemovableThenRemove(PathRemover.java:
 1. 修改注册表项 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Jenkins\ImagePath 为新的路径
 1. 启动 Jenkins 服务
 
-#### 参考
+### 参考
 
 - <https://github.com/elvanja/jenkins-gitlab-hook-plugin/issues/19>
+
+### Git Clone 失败
+
+```
+fatal: The remote end hung up unexpectedly
+```
+
+解决方案：
+
+```
+git config --global http.postBuffer 1048576000
+Additional Behaviours: Advanced clone behaviours
+timeout (in minutes) for clone and fetch operations: 30
+```
 
 ## 参考
 
@@ -179,7 +105,3 @@ at jenkins.util.io.PathRemover.removeOrMakeRemovableThenRemove(PathRemover.java:
 - Japan
   - <http://ftp.yz.yamagata-u.ac.jp/pub/misc/jenkins/>
   - <http://mirror.esuni.jp/jenkins/>
-
-## 修改记录
-
-- 2020-08-12 新增了企业微信通知的配置说明
