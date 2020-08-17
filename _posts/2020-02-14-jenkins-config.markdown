@@ -81,7 +81,6 @@ tags: [Jenkins, CICD]
 
   > 需要安装插件 [qy-wechat-notification](https://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/qy-wechat-notification/) 才能使用
 
-<<<<<<< HEAD
   - Webhook地址：<https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=${key}>
   - 仅失败才@：✔
   - 发送开始构建信息：✔
@@ -89,10 +88,6 @@ tags: [Jenkins, CICD]
   - 仅成功才发送：✔
   - 仅构建中断才发送：✔
   - 仅不稳定构建才发送：✔
-=======
-  - Webhook地址: <https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=${key}>
-  - 发送开始构建信息: ✔
->>>>>>> b251f5f640aaf3aefae8775a6ba4caae7cf81227
   - 通知UserID: @${wechat_user_name}
 
 ## 修改记录
