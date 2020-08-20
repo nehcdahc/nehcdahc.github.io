@@ -20,6 +20,7 @@ tags: [Jenkins, CICD]
 - Git > Repositories > Credentials: {credentials}
 - Git > Branches to build > Branch Specifier (blank for 'any'): {branch_specifier, 10.29}
 - Git > Additional Behaviours > Check out to specific local branch > Branch name: {branch_name, 10.29}
+- Git > Additional Behaviours > Advanced clone behaviours > Timeout (in minutes) for clone and fetch operations: {30}
 
 ### Build Triggers
 
@@ -86,4 +87,5 @@ tags: [Jenkins, CICD]
 
 ## 修改记录
 
+- 2020-08-20 添加 git clone 超时时间设置
 - 2020-08-12 新增了企业微信通知的配置说明
