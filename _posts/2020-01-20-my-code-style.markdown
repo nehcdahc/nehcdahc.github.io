@@ -23,6 +23,16 @@ categories: ["软件工程"]
 1. 【强制】提示给用户的说明文字结尾一般不需要标点符号。如果有断句，则可以以句号结尾。不应该使用感叹号结尾。
 1. 【推荐】在不支持语言包的系统中，使用英文表述。
 
+## CHANGELOG
+
+1. 【强制】更新日志撰写，请参考[如何维护更新日志](https://keepachangelog.com/)
+
+## Git
+
+1. 【强制】Git 的 commit message 必须使用英文进行撰写，即使不地道
+1. 【推荐】Git 的 commit message 撰写应该要描述出所处项目的上下文环境
+1. 【推荐】Git 的 commit message 应该遵循 [commitlint](https://commitlint.js.org/#/)
+
 ## CSS
 
 1. 【强制】CSS 书写顺序：
@@ -70,16 +80,6 @@ categories: ["软件工程"]
    MD040: false # Fenced code blocks should have a language specified
    MD041: false # First line in file should be a top level heading
    ```
-
-## CHANGELOG
-
-1. 【强制】更新日志撰写，请参考[如何维护更新日志](https://keepachangelog.com/)
-
-## Git
-
-1. 【强制】Git 的 commit message 必须使用英文进行撰写，即使不地道
-1. 【推荐】Git 的 commit message 撰写应该要描述出所处项目的上下文环境
-1. 【推荐】Git 的 commit message 应该遵循 [commitlint](https://commitlint.js.org/#/)
 
 ## 修改记录
 
