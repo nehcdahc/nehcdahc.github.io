@@ -62,11 +62,6 @@ categories: ["软件工程"]
    1. 背景（background，border 等）
    1. 其他（animation，transition 等）
 
-1. 应用应该支持多语言，至少提供对 English 的支持。
-1. 前端项目文件夹的命名必须符合 [kebab-case](http://wiki.c2.com/?KebabCase) 形式。
-1. 自定义不同的类别或类型时，使用语义化的字符串，而不应该使用整数。比如查询类型，Tab 的键值。
-1. 用断言来处理绝对不应该发生的状况，而用错误来处理代码预期会发生的状况。
-
 ### CSHARP
 
 1. 【强制】类的私有属性使用下划线开始的 lowerCamelCase 命名。示例：
