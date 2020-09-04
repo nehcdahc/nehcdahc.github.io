@@ -91,7 +91,7 @@ categories: ["软件工程"]
 
 ## 更新日志
 
-此日志的格式是基于 [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)，并且项目版本命名遵循 [Semantic Versioning](https://semver.org/spec/v2.0.0.html)。
+此日志的格式是基于 [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)，并且版本命名遵循 [Semantic Versioning](https://semver.org/spec/v2.0.0.html)。
 
 ### 2020-09-04
 
