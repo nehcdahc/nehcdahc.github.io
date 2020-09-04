@@ -79,7 +79,9 @@ categories: ["软件工程"]
 
 1. 【强制】Git 的 commit message 必须使用英文进行撰写，即使不地道
 1. 【推荐】Git 的 commit message 撰写应该要描述出所处项目的上下文环境
+1. 【推荐】Git 的 commit message 应该遵循 [commitlint](https://commitlint.js.org/#/)
 
 ## 修改记录
 
-- 2020-04-08 17:32 新增了 CHANGELOG 撰写规范
+- 2020-09-04 新增了关于 commitlint 的 Git commit message 撰写要求
+- 2020-04-08 新增了 CHANGELOG 撰写规范
