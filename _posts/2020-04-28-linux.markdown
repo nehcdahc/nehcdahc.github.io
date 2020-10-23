@@ -25,3 +25,11 @@ ssh -p 27987 root@174.137.51.125
 ```bash
 reboot
 ```
+
+## 文件操作
+
+### 删除过期文件
+
+```bash
+find /backup -type f -mtime +3 -exec rm -f {} \;
+```
