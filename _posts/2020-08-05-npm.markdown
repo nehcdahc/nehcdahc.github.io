@@ -6,6 +6,18 @@ tags: ["npm", "yarn"]
 categories: ["工具"]
 ---
 
+## 查看 npm 配置
+
+```bash
+npm config ls -l
+```
+
+## 修改 npm 缓存位置
+
+```bash
+npm config set cache D:\Workspace\npm-cache --global
+```
+
 ## 源管理
 
 ```bash
