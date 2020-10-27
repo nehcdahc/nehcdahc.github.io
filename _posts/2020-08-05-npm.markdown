@@ -12,10 +12,14 @@ categories: ["工具"]
 npm config ls -l
 ```
 
-## 修改 npm 缓存位置
+## 修改 npm & yarn 缓存位置
 
 ```bash
+npm config ls -l
 npm config set cache D:\Workspace\npm-cache --global
+
+yarn cache dir
+yarn cache set cache-folder d:\Workspace\yarn-cache
 ```
 
 ## 源管理
