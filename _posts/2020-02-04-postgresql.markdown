@@ -183,6 +183,15 @@ CREATE user {user_name} PASSWORD '{user_password}';
 -- database_user，数据库用户
 GRANT ALL PRIVILEGES ON {database_name} TO {database_user};
 
+-- Grant SELECT for a specific table
+GRANT SELECT ON {table_name} TO {username};
+
+-- Grant SELECT for multiple tables:
+GRANT SELECT ON ALL TABLES IN SCHEMA {schema_name} TO {user_name};
+
+-- If you want to grant access to the new table in the future automatically, you have to alter default:
+ALTER DEFAULT PRIVILEGES IN SCHEMA {schema_name} GRANT SELECT ON TABLES TO username;
+
 -- 修改表的 Owner
 -- table_name，表名
 -- database_user，数据库用户
@@ -273,6 +282,7 @@ VACUUM FULL {table_name};
 vacuumdb --help
 vacuumdb --host={host} --username={user_name} --all --full
 vacuumdb --host={host} --username={user_name} --all --full
+vacuumdb --host={host} --username={user_name} --database={database_name}
 ```
 
 ### 配置
